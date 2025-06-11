@@ -156,18 +156,18 @@
    | Font families
    |--------------------------------
   */
-  --font-family-sans-serif:
-  "brother-1816", sans-serif;
-  --font-family-serif:
-  "brother-1816", sans-serif;
+  --font-family-sans-serif:   /* Default sans-serif stack with Open Sans */
+  'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-serif:        /* Default serif stack */
+  Georgia, "Times New Roman", Times, serif;
   --font-family-icon:
   "Font Awesome 6 Free";
   --font-family-brand:
   "Font Awesome 6 Brands";
-  --font-family-primary: var(
-  --font-family-sans-serif);
-  --font-family-secondary: var(
-  --font-family-serif);
+  --font-family-primary:      /* This will be our HEADING font */
+  'Montserrat', var(--font-family-sans-serif); /* Montserrat, falling back to Open Sans stack */
+  --font-family-secondary:    /* This will be our BODY font (used if other CSS calls for secondary) */
+  'Open Sans', var(--font-family-sans-serif); /* Open Sans, with its own stack as primary definition */
   /*
    |--------------------------------
    | Font sizes
