@@ -6,12 +6,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Meet Our Instructors - American Expressions Institute</title>
+    <title>Customized Tutoring Sessions - American Expressions Institute</title>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="Meet-Our-Instructors.html" />
-    <meta property="og:title" content="Meet Our Instructors - American Expressions Institute" />
-    <meta property="og:description" content="Meet our expert TESOL-certified instructors at American Expressions Institute. Led by Maria Isabel Juarez, M.A. TESOL, our team is dedicated to your English learning success." />
-    <meta property="og:image" content="files/_cache/31447717c8fdce248545e21be4e3685c.png" />
+    <meta property="og:url" content="Customized-Tutoring-Sessions.html" />
+    <meta property="og:title" content="Customized Tutoring Sessions - American Expressions Institute" />
+    <meta property="og:description" content="Accelerate your English learning with personalized 1-on-1 tutoring sessions, tailored to your specific goals and needs at American Expressions Institute." />
+    <meta property="og:image" content="files/_cache/instrutor online clases.jpg" /> <!-- Example OG image -->
 
     <link type="text/css" href="res/css/common.css" rel="stylesheet" />
     <link type="text/css" href="res/css/mw.cells.css" rel="stylesheet" />
@@ -50,8 +50,6 @@
     <link rel="icon" type="image/png" href="files/_cache/31447717c8fdce248545e21be4e3685c.png" />
 
     <!-- Fonts -->
-    <!-- REMOVED Typekit link -->
-    <!-- ADDED Google Fonts (Open Sans and Montserrat) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -72,120 +70,50 @@
     <!-- AOS Scripts -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-
-    <!-- Custom styles for instructor cards (can be moved to a CSS file) -->
     <style>
-        .instructor-card-item {
+        .content-section { padding: 40px 0; }
+        .content-section h2 { text-align: center; margin-bottom: 30px; color: var(--primary-dark, #2c3e50); font-size: 2.2rem; }
+        .content-section .lead { text-align: center; margin-bottom: 40px; font-size: 1.1rem; color: var(--text-color-6, #555); }
+        .feature-card {
             background: #fff;
+            padding: 25px;
             border-radius: 8px;
-            padding: 20px; /* Adjusted padding */
-            margin-bottom: 30px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+            text-align: center;
+            height: 100%;
         }
-        .instructor-card-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-        }
-        .instructor-image {
-            width: 150px; /* Adjusted size */
-            height: 150px; /* Adjusted size */
+        .feature-card .icon i { font-size: 2.5rem; color: var(--primary, #007bff); margin-bottom: 15px; }
+        .feature-card h3 { font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-dark, #2c3e50); }
+        .feature-card p { font-size: 0.95rem; color: var(--text-color-5, #6c757d); line-height: 1.6; }
+        .how-it-works-step { display: flex; align-items: flex-start; margin-bottom: 20px; }
+        .how-it-works-step .step-number {
+            flex-shrink: 0;
+            width: 40px; height: 40px; line-height: 40px;
             border-radius: 50%;
-            object-fit: cover;
-            margin: 0 auto 20px auto; /* Centered image */
-            display: block;
-            border: 3px solid #eee;
-        }
-        .instructor-name {
-            color: #2c3e50;
-            font-size: 22px; /* Adjusted size */
+            background-color: var(--secondary, #6c757d);
+            color: white;
+            text-align: center;
             font-weight: bold;
-            margin-bottom: 5px;
+            margin-right: 20px;
+            font-size: 1.2rem;
+        }
+        .how-it-works-step .step-content h4 { margin-top: 0; font-size: 1.1rem; color: var(--primary-dark, #2c3e50); }
+        .how-it-works-step .step-content p { font-size: 0.95rem; margin-bottom: 5px; color: var(--text-color-5, #6c757d); }
+        .cta-tutoring { text-align: center; padding: 40px 20px; background-color: var(--gray-1, #f8f9fa); border-radius: 8px; margin-top:30px;}
+        .cta-tutoring h2 { color: var(--primary-dark, #2c3e50); }
+        .cta-tutoring p { color: var(--text-color-6, #555); }
+        .image-placeholder-tutoring {
+            background-color: var(--gray-2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 250px; /* Adjust as needed */
             text-align: center;
+            color: var(--gray-5);
         }
-        .instructor-title {
-            color: #e74c3c; /* Theme color */
-            font-size: 16px; /* Adjusted size */
-            font-weight: 600;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-        .instructor-bio {
-            font-size: 14px; /* Adjusted size */
-            line-height: 1.6;
-            color: #555;
-            margin-bottom: 15px;
-        }
-        .credentials-list {
-            list-style: none;
-            padding: 0;
-            font-size: 13px; /* Adjusted size */
-        }
-        .credentials-list li {
-            padding: 4px 0; /* Adjusted padding */
-            border-bottom: 1px solid #f0f0f0;
-            color: #333;
-        }
-        .credentials-list li:last-child {
-            border-bottom: none;
-        }
-        .credentials-list li:before {
-            content: "✓";
-            color: #27ae60; /* Theme color */
-            font-weight: bold;
-            margin-right: 8px;
-        }
-        .director-section .instructor-image {
-            width: 200px; /* Larger for director */
-            height: 200px; /* Larger for director */
-        }
-         .director-section .instructor-name {
-            font-size: 26px;
-        }
-        .director-section .instructor-title {
-            font-size: 18px;
-        }
-        .director-section .instructor-bio, .director-section .credentials-list {
-             font-size: 15px;
-        }
-        .section-title-custom { /* Renamed to avoid conflict if template uses .section-title */
-            text-align: center;
-            font-size: 32px; /* Adjusted */
-            color: #2c3e50; /* Dark blue/grey */
-            margin-bottom: 40px; /* Adjusted */
-            font-weight: 700;
-        }
-        .why-choose-section .feature-box h4 {
-            font-size: 18px;
-            color: #e74c3c;
-            margin-bottom: 10px;
-        }
-        .why-choose-section .feature-box p {
-            font-size: 14px;
-            color: #555;
-        }
-         .cta-section-custom { /* Renamed */
-            padding: 40px 0;
-            background-color: #f8f9fa; /* Light grey background */
-            margin-top: 30px;
-        }
-         .cta-section-custom h2 {
-            font-size: 28px;
-            margin-bottom: 15px;
-        }
-        .cta-section-custom p {
-            font-size: 16px;
-            margin-bottom: 25px;
-        }
-        /* Enroll button specific style from mission-and-vision.html, if needed for other buttons not in main nav */
-        /* .dropdown { position: relative; display: inline-block; } */
-        /* .dropdown-button { background-color: transparent; color: white; padding: 10px 20px; border: 1px solid white; border-radius: 5px; cursor: pointer; font-size: 20px; text-transform: uppercase; font-weight:700; } */
-        /* .enroll-btn-transparent { background-color: transparent !important; border: 2px solid #fff !important; color: #fff !important; }  */
-        /* .enroll-btn-transparent:hover { background-color: rgba(255,255,255,0.1) !important; }  */
-        /* .dropdown-menu { display: none; position: absolute; background-color: #f1f1f1; min-width: 200px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); z-index: 1050; border-radius: 5px; overflow: hidden; font-size:16px; right:0; } */
-        /* .dropdown-menu a { color: black; padding: 12px 16px; text-decoration: none; display: block; font-size:12px } */
-        /* .dropdown-menu a:hover { background-color: #ddd; } */
-        /* .dropdown:hover .dropdown-menu { display: block; } */
+        .image-placeholder-tutoring img { border-radius: 8px; }
     </style>
 </head>
 	<body>
@@ -237,21 +165,52 @@
                                 </div>
                                 <div class="header-main-right">
                                     <div class="header-btns">
-                                        <!-- Buttons removed from here, will be integrated into the main nav -->
+                                        <div class="header-btn-1">
+                                            <div id="wHRQBP5K435QMB22" class="mwPageBlock Button" style=""><div class="blockContents">
+                                                <div id="tpl-ESZZR7" class="mwBtnCenter ">
+                                                    <div class="btn is-outline is-light is-border-thin ">
+                                                        <a href="student-login.html" template="default" class="medium" target="_self"><span>STUDENT LOGIN</span></a>
+                                                    </div>
+                                                </div>
+                                            </div></div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="dropdown-button enroll-btn-transparent">ENROLL NOW</button>
+                                            <div class="dropdown-menu">
+                                                <div id="w20LUQMBQRWLBH5E" class="mwPageBlock Menu" style=""><div class="blockContents"><ul id="mvd6FKL0i">
+                                                    <li class="no-children"><a href="Beginner-English-Application-2025-2026.html"><span class="Title">Beginner English Application (2025-2026)</span></a></li>
+                                                    <li class="no-children"><a href="Intermediate-English-Application-2025-2026.html"><span class="Title">Intermediate English Application (2025-2026)</span></a></li>
+                                                    <li class="no-children"><a href="Advanced-English-Application-2025-2026.html"><span class="Title">Advanced English Application (2025-2026)</span></a></li>
+                                                    <li class="no-children"><a href="Business-English-Application-2025-2026.html"><span class="Title">Business English Application (2025-2026)</span></a></li>
+                                                    <li class="no-children"><a href="Exam-Prep-Application-2025-2026.html"><span class="Title">Exam Prep Application (2025-2026)</span></a></li>
+                                                    <li class="no-children"><a href="Conversational-Club-Signup-2025-2026.html"><span class="Title">Conversational Club Sign-up (2025-2026)</span></a></li></ul>
+                                                </div></div>
+                                            </div>
+                                        </div>
+                                        <style>
+                                            .dropdown { position: relative; display: inline-block; }
+                                            .dropdown-button { background-color: transparent; color: white; padding: 10px 20px; border: 1px solid white; border-radius: 5px; cursor: pointer; font-size: 20px; text-transform: uppercase; font-weight:700; }
+                                            .enroll-btn-transparent { background-color: transparent !important; border: 2px solid #fff !important; color: #fff !important; } 
+                                            .enroll-btn-transparent:hover { background-color: rgba(255,255,255,0.1) !important; } 
+                                            .dropdown-menu { display: none; position: absolute; background-color: #f1f1f1; min-width: 200px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); z-index: 1050; border-radius: 5px; overflow: hidden; font-size:16px; right:0; }
+                                            .dropdown-menu a { color: black; padding: 12px 16px; text-decoration: none; display: block; font-size:12px }
+                                            .dropdown-menu a:hover { background-color: #ddd; }
+                                            .dropdown:hover .dropdown-menu { display: block; }
+                                        </style>
                                     </div>
                                     <!-- Header Menu -->
                                     <div class="header-menu">
                                         <div id="wOK3NG4BJKADQ7WV" class="mwPageBlock Menu" style=""><div class="blockContents">
                                             <ul id="main-aei-nav">
                                                 <li><a href="index.html"><span class="Title">Home</span></a></li>
-                                                <li class="has-children current current_ancestor"><a><span class="Title">About Us</span></a>
+                                                <li class="has-children"><a><span class="Title">About Us</span></a>
                                                     <ul>
                                                         <li><a href="mission-and-vision.html"><span class="Title">Our Mission & Vision</span></a></li>
-                                                        <li class="current"><a href="Meet-Our-Instructors.html"><span class="Title">Meet Our Instructors</span></a></li>
+                                                        <li><a href="Meet-Our-Instructors.html"><span class="Title">Meet Our Instructors</span></a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="our_method.html"><span class="Title">Our Method</span></a></li>
-                                                <li class="has-children"><a><span class="Title">Our Courses</span></a>
+                                                <li class="has-children current"><a><span class="Title">Our Courses</span></a>
                                                     <ul>
                                                         <li class="has-children"><a><span class="Title">General English</span></a>
                                                             <ul>
@@ -260,13 +219,15 @@
                                                                 <li><a href="Advanced-English-Course-2025-2026.html"><span class="Title">Advanced</span></a></li>
                                                             </ul>
                                                         </li>
-                                                        <li class="has-children"><a><span class="Title">Specialized English</span></a>
+                                                        <li class="has-children current"><a><span class="Title">Specialized English</span></a>
                                                             <ul>
                                                                 <li><a href="Business-English-Course-2025-2026.html"><span class="Title">Business</span></a></li>
                                                                 <li><a href="TOEFL-IELTS-Preparation-Course-2025-2026.html"><span class="Title">TOEFL/IELTS</span></a></li>
                                                                 <li><a href="Conversational-English-Course-2025-2026.html"><span class="Title">Conversational Club</span></a></li>
                                                             </ul>
                                                         </li>
+                                                        <!-- Added Customized Tutoring to navigation -->
+                                                         <li class="no-children current"><a href="Customized-Tutoring-Sessions.html"><span class="Title">Customized Tutoring</span></a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="has-children"><a><span class="Title">Institute Info</span></a>
@@ -286,17 +247,6 @@
                                                         <li><a href="news-archives.html"><span class="Title">News Archives</span></a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="has-children"><a><span class="Title">Enroll</span></a>
-                                                    <ul>
-                                                        <li><a href="Beginner-English-Application-2025-2026.html"><span class="Title">Beginner English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Intermediate-English-Application-2025-2026.html"><span class="Title">Intermediate English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Advanced-English-Application-2025-2026.html"><span class="Title">Advanced English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Business-English-Application-2025-2026.html"><span class="Title">Business English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Exam-Prep-Application-2025-2026.html"><span class="Title">Exam Prep Application (2025-2026)</span></a></li>
-                                                        <li><a href="Conversational-Club-Signup-2025-2026.html"><span class="Title">Conversational Club Sign-up (2025-2026)</span></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="student-login.html"><span class="Title">Student Login</span></a></li>
                                             </ul>
                                         </div></div>
                                     </div>
@@ -343,14 +293,14 @@
                                         <div id="w84K4LQN4085HOS6" class="mwPageBlock Menu" style=""><div class="blockContents">
                                             <ul id="mobile-aei-nav">
                                                 <li><a href="index.html"><span class="Title">Home</span></a></li>
-                                                <li class="has-children current current_ancestor"><a><span class="Title">About Us</span></a>
+                                                <li class="has-children"><a><span class="Title">About Us</span></a>
                                                     <ul>
                                                         <li><a href="mission-and-vision.html"><span class="Title">Our Mission & Vision</span></a></li>
-                                                        <li class="current"><a href="Meet-Our-Instructors.html"><span class="Title">Meet Our Instructors</span></a></li>
+                                                        <li><a href="Meet-Our-Instructors.html"><span class="Title">Meet Our Instructors</span></a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="our_method.html"><span class="Title">Our Method</span></a></li>
-                                                <li class="has-children"><a><span class="Title">Our Courses</span></a>
+                                                <li class="has-children current"><a><span class="Title">Our Courses</span></a>
                                                     <ul>
                                                         <li class="has-children"><a><span class="Title">General English</span></a>
                                                             <ul>
@@ -359,13 +309,14 @@
                                                                 <li><a href="Advanced-English-Course-2025-2026.html"><span class="Title">Advanced</span></a></li>
                                                             </ul>
                                                         </li>
-                                                        <li class="has-children"><a><span class="Title">Specialized English</span></a>
+                                                        <li class="has-children current"><a><span class="Title">Specialized English</span></a>
                                                             <ul>
                                                                 <li><a href="Business-English-Course-2025-2026.html"><span class="Title">Business</span></a></li>
                                                                 <li><a href="TOEFL-IELTS-Preparation-Course-2025-2026.html"><span class="Title">TOEFL/IELTS</span></a></li>
                                                                 <li><a href="Conversational-English-Course-2025-2026.html"><span class="Title">Conversational Club</span></a></li>
                                                             </ul>
                                                         </li>
+                                                        <li class="no-children current"><a href="Customized-Tutoring-Sessions.html"><span class="Title">Customized Tutoring</span></a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="has-children"><a><span class="Title">Institute Info</span></a>
@@ -385,17 +336,6 @@
                                                         <li><a href="news-archives.html"><span class="Title">News Archives</span></a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="has-children"><a><span class="Title">Enroll</span></a>
-                                                    <ul>
-                                                        <li><a href="Beginner-English-Application-2025-2026.html"><span class="Title">Beginner English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Intermediate-English-Application-2025-2026.html"><span class="Title">Intermediate English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Advanced-English-Application-2025-2026.html"><span class="Title">Advanced English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Business-English-Application-2025-2026.html"><span class="Title">Business English Application (2025-2026)</span></a></li>
-                                                        <li><a href="Exam-Prep-Application-2025-2026.html"><span class="Title">Exam Prep Application (2025-2026)</span></a></li>
-                                                        <li><a href="Conversational-Club-Signup-2025-2026.html"><span class="Title">Conversational Club Sign-up (2025-2026)</span></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="student-login.html"><span class="Title">Student Login</span></a></li>
                                             </ul>
                                         </div></div>
                                     </div>
@@ -436,12 +376,12 @@
                             (function () { /* Search JS from mission-and-vision */
                                 var $body = $('body'); var $header = $('#tpl-34BH3B'); var $menu = $('.header-menu, .mega-menu', $header); var $burger = $('.burger', $header); var $headerSearch = $('.header-search', $header); var $headerSearchBtns = $('.header-search-btn, .header-utility-bar-search-btn', $header); var $headerSearchInput = $('input[name="q"]', $header); var $headerSearchBackdrop = $('.header-search-backdrop', $header);
                                 $headerSearchBtns.on('click', function (e) { e.preventDefault(); $headerSearch.hasClass('active') ? closeSearchForm() : openSearchForm(); });
-                                $headerSearchBackdrop.on('click', function () { closeSearchForm() });
+                                $headerSearchBackdrop.on('click', function () { closeSearchForm(); });
                                 $menu.on('mouseenter', function () { closeSearchForm(); });
                                 $burger.on('click', function () { closeSearchForm_2(); });
                                 function openSearchForm() { $body.addClass('_overflow-hidden'); $headerSearchBtns.addClass("active"); $headerSearch.addClass("active"); $headerSearch.fadeIn(400); $headerSearchInput.focus(); }
                                 function closeSearchForm() { $body.removeClass('_overflow-hidden'); $headerSearchBtns.removeClass("active"); $headerSearch.removeClass("active"); $headerSearch.fadeOut(400); $headerSearchInput.blur(); }
-                                function closeSearchForm_2() { $headerSearchBtns.removeClass("active"); $headerSearch.removeClass("active"); $headerSearch.fadeOut(400); $headerSearchInput.blur(); }
+                                function closeSearchForm_2() { if ($headerSearch.hasClass('active')) { $headerSearchBtns.removeClass("active"); $headerSearch.removeClass("active"); $headerSearch.fadeOut(400); $headerSearchInput.blur(); } }
                             })();
                         });
                     </script>
@@ -450,16 +390,16 @@
 
 			<!-- Main -->
 			<main id="main-area">
-				<!-- Page Banner Section from mission-and-vision -->
-                <div class="mwPageArea"><div id="wPAGEBANNERINSTRUCTORS" class="mwPageBlock File" style=""><div class="blockContents">
-                    <div id="tpl-BANNERINSTRUCTORS" class="page-banner page-banner-split _content-style">
-                        <div class="page-banner-wrap" style="background:url(files/_cache/ae3138fc2cd4f3a67c0298b6c73af656.jpg) center center no-repeat; background-size:cover; ">
+                <!-- Page Banner -->
+                <div class="mwPageArea"><div id="wPAGEBANNERTUTORING" class="mwPageBlock File" style=""><div class="blockContents">
+                    <div id="tpl-BANNERTUTORING" class="page-banner page-banner-split _content-style">
+                        <div class="page-banner-wrap" style="background:url(files/_cache/pexels-julia-m-cameron-4144525.jpg) center center no-repeat; background-size:cover;"> 
                         <div class="page-banner-inner">
                             <div class="container">
                             <div class="split-inner">
-                                <h1 class="page-banner-title _js-replace-file-title">Meet Our Expert Instructors</h1>
+                                <h1 class="page-banner-title _js-replace-file-title">Personalized English Tutoring</h1>
                                 <div class="split-line"></div>
-                                <div class="page-banner-des"><p>Professional TESOL-certified educators dedicated to your English learning success.</p></div>
+                                <div class="page-banner-des"><p>Tailored 1-on-1 sessions to meet your unique learning goals and accelerate your fluency.</p></div>
                             </div>
                             </div>
                         </div>
@@ -467,168 +407,186 @@
                     </div>
                 </div></div>
 
-                <!-- Breadcrumb -->
-                <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
-                    <div class="breadcrumb-custom" style="font-size: 14px; color: #555;">
-                        <a href="index.html" style="color: #e74c3c; text-decoration: none;">Home</a> > 
-                        <a href="#" onclick="return false;" style="color: #e74c3c; text-decoration: none; cursor: default;">About Us</a> > 
-                        Meet Our Instructors
+                <!-- Breadcrumb could be added here if desired, or a submenu -->
+                <div id="wSUBMENUTUTORING" class="mwPageBlock Include" style=""><div class="blockContents"><div class="submenu-holder content-area _content-style">
+                    <div class="submenu container">
+                        <div class="mwPageArea"><div id="wMENUTUTORING" class="mwPageBlock Menu" style=""><div class="blockContents"><ul id="msSUBTUTORING">
+                            <li class="no-children current"><a href="Customized-Tutoring-Sessions.html"><span class="Title">Tutoring Overview</span></a></li>
+                            <li class="no-children"><a href="tutoring-packages.html"><span class="Title">Packages & Pricing</span></a></li>
+                            <li class="no-children"><a href="request-tutoring-consultation.html"><span class="Title">Request Consultation</span></a></li>
+                        </ul></div></div><div class="Clear"></div></div>
                     </div>
-                </div>
+                </div></div></div>
 
-
-                <!-- Main Content Area using structure from mission-and-vision -->
-                <div id="tpl-INSTRUCTORSCONTENT" class="content-area _content-style is-lg _bg-none">
+                <!-- Introduction Section -->
+                <div class="content-area _content-style is-lg _bg-none content-section">
                     <div class="content-area-wrap">
                         <div class="container">
                             <div class="mwPageArea">
-                                <!-- Director Section -->
-                                <div class="row _gutter-60 director-section" style="margin-bottom: 40px;" data-aos="fade-up">
-                                    <div class="col-lg-4 text-center">
-                                        <img src="files/_cache/instructor.jpg" alt="Maria Isabel Juarez, M.A. TESOL" class="instructor-image" loading="lazy" width="588" height="735" />
+                                <div class="row _gutter-60 align-items-center" data-aos="fade-up">
+                                    <div class="col-lg-7">
+                                        <h2>Your English Goals, Your Personalized Path</h2>
+                                        <p class="lead">At American Expressions Institute, we understand that every learner is unique. Our Customized Tutoring Sessions offer a highly personalized approach to English language learning, designed to fit your specific objectives, learning style, and schedule.</p>
+                                        <p>Whether you're looking to overcome specific grammar challenges, prepare for an important presentation, improve your pronunciation, or simply accelerate your overall fluency, our experienced TESOL-certified tutors are here to guide you every step of the way. We focus on your individual needs to ensure you make rapid and meaningful progress.</p>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h2 class="instructor-name">Maria Isabel Juarez, M.A. TESOL</h2>
-                                        <h3 class="instructor-title">Directora de American Expressions Institute</h3>
-                                        <div class="instructor-bio">
-                                            <p>With over 15 years of experience in English language education, Maria Isabel Juarez leads American Expressions Institute with passion and expertise. Her Master's degree in TESOL (Teaching English to Speakers of Other Languages) from a prestigious university has equipped her with advanced pedagogical knowledge and innovative teaching methodologies.</p>
-                                            <p>Maria specializes in creating personalized learning experiences for Spanish-speaking students, understanding the unique challenges they face when acquiring English as a second language. Her approach combines traditional TESOL principles with modern technology to deliver engaging, effective online instruction.</p>
-                                        </div>
-                                        <h4>Credentials & Expertise:</h4>
-                                        <ul class="credentials-list">
-                                            <li>Master of Arts in TESOL</li>
-                                            <li>15+ years of English language instruction experience</li>
-                                            <li>Specialized training in online education platforms</li>
-                                            <li>Expert in Spanish-to-English language acquisition</li>
-                                            <li>Certified in TOEFL and IELTS exam preparation</li>
-                                            <li>Advanced certification in Business English instruction</li>
-                                            <li>Fluent in Spanish and English</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Teaching Team Section -->
-                                <div class="team-section" style="padding-top: 30px; padding-bottom: 30px;">
-                                    <h2 class="section-title-custom" data-aos="fade-up">Our Dedicated Teaching Team</h2>
-                                    <div class="row _gutter-30">
-                                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="instructor-card-item">
-                                                <h3 class="instructor-name">Dr. Sarah Martinez</h3>
-                                                <h4 class="instructor-title">Senior English Instructor - Business & Advanced Levels</h4>
-                                                <div class="instructor-bio">
-                                                    <p>Dr. Martinez brings 12 years of corporate English training experience to our institute. She specializes in Business English communication and advanced conversation skills for professionals.</p>
-                                                </div>
-                                                <ul class="credentials-list">
-                                                    <li>Ph.D. in Applied Linguistics</li>
-                                                    <li>TESOL Certification</li>
-                                                    <li>Business English Specialist</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                                            <div class="instructor-card-item">
-                                                <h3 class="instructor-name">Professor James Wilson</h3>
-                                                <h4 class="instructor-title">TOEFL/IELTS Preparation Specialist</h4>
-                                                <div class="instructor-bio">
-                                                    <p>Professor Wilson is our exam preparation expert with a proven track record of helping students achieve their target scores on international English proficiency exams.</p>
-                                                </div>
-                                                <ul class="credentials-list">
-                                                    <li>M.A. in English Language Teaching</li>
-                                                    <li>TOEFL iBT Certified Instructor</li>
-                                                    <li>10+ years exam prep experience</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                         <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                            <div class="instructor-card-item">
-                                                <h3 class="instructor-name">Ana Rodriguez</h3>
-                                                <h4 class="instructor-title">Beginner & Intermediate Level Coordinator</h4>
-                                                <div class="instructor-bio">
-                                                    <p>Ana specializes in foundational English instruction, helping beginners build confidence and intermediate students develop fluency through engaging, interactive lessons.</p>
-                                                </div>
-                                                <ul class="credentials-list">
-                                                    <li>B.A. in English Education</li>
-                                                    <li>TESOL Certification</li>
-                                                    <li>Native Spanish Speaker</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                                            <div class="instructor-card-item">
-                                                <h3 class="instructor-name">Michael Thompson</h3>
-                                                <h4 class="instructor-title">Conversational English & Pronunciation Coach</h4>
-                                                <div class="instructor-bio">
-                                                    <p>Michael leads our Conversational English Club and specializes in pronunciation training, helping students develop clear, confident speaking skills.</p>
-                                                </div>
-                                                <ul class="credentials-list">
-                                                    <li>M.A. in Speech Communication</li>
-                                                    <li>Pronunciation Specialist Certification</li>
-                                                    <li>Accent Reduction Expert</li>
-                                                </ul>
-                                            </div>
+                                    <div class="col-lg-5">
+                                        <div class="image-placeholder-tutoring">
+                                            <img src="files/_cache/instructor.jpg" alt="Personalized English Tutoring Session" class="img-fluid" loading="lazy" width="588" height="735" />
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- Why Choose Our Instructors -->
-                                <div class="why-choose-section" style="padding-top: 30px; padding-bottom: 30px;">
-                                    <h2 class="section-title-custom" data-aos="fade-up">Why Choose Our Instructors?</h2>
-                                    <div class="row _gutter-30">
-                                        <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="feature-box text-center" style="padding: 20px;">
-                                                 <i class="fas fa-certificate fa-3x" style="color: #e74c3c; margin-bottom: 15px;"></i>
-                                                <h4>TESOL Certified</h4>
-                                                <p>All our instructors hold advanced TESOL certifications and continue their professional development to stay current with best practices.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
-                                            <div class="feature-box text-center" style="padding: 20px;">
-                                                <i class="fas fa-users fa-3x" style="color: #e74c3c; margin-bottom: 15px;"></i>
-                                                <h4>Cultural Understanding</h4>
-                                                <p>Our team understands the specific challenges Spanish speakers face, allowing for more effective and culturally sensitive instruction.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="300">
-                                            <div class="feature-box text-center" style="padding: 20px;">
-                                                 <i class="fas fa-laptop-code fa-3x" style="color: #e74c3c; margin-bottom: 15px;"></i>
-                                                <h4>Technology Integration</h4>
-                                                <p>Our instructors are trained in the latest online teaching technologies, ensuring engaging and effective virtual learning experiences.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Call to Action -->
-                                <div class="cta-section-custom text-center" data-aos="fade-up">
-                                    <h2>Ready to Learn with Our Expert Team?</h2>
-                                    <p>Join thousands of successful students who have achieved their English learning goals with American Expressions Institute.</p>
-                                    <div class="cta-buttons" style="text-align: center;">
-                                        <div id="wBUTTONCTA1" class="mwPageBlock Button" style="display:inline-block; margin-right:10px; vertical-align: top;">
-                                            <div class="blockContents">
-                                                <div id="tpl-BTNCTA1" class="mwBtnCenter">
-                                                    <div class="btn is-primary is-medium ">
-                                                        <a href="Beginner-English-Application-2025-2026.html" template="default" target="_self"><span>Start Your Journey</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="wBUTTONCTA2" class="mwPageBlock Button" style="display:inline-block; vertical-align: top;">
-                                            <div class="blockContents">
-                                                <div id="tpl-BTNCTA2" class="mwBtnCenter">
-                                                    <div class="btn is-outline is-medium ">
-                                                        <a href="contact-us.html" template="default" target="_self"><span>Contact Us</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                             <div class="Clear"></div></div>
                         </div>
                     </div>
                 </div>
-                <div class="Clear"></div></main>
+
+                <!-- Benefits Section -->
+                <div class="content-area _content-style is-lg _bg-light content-section">
+                    <div class="content-area-wrap">
+                        <div class="container">
+                            <h2 data-aos="fade-up">Benefits of 1-on-1 Customized Tutoring</h2>
+                            <div class="mwPageArea">
+                                <div class="row _gutter-30">
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="feature-card">
+                                            <div class="icon"><i class="fas fa-bullseye"></i></div>
+                                            <h3>Targeted Learning</h3>
+                                            <p>Focus entirely on your specific weaknesses and areas you want to improve, from grammar and vocabulary to speaking confidence.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="feature-card">
+                                            <div class="icon"><i class="fas fa-user-friends"></i></div>
+                                            <h3>Personalized Attention</h3>
+                                            <p>Receive undivided attention from your tutor, allowing for immediate feedback, tailored explanations, and a learning pace set by you.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="feature-card">
+                                            <div class="icon"><i class="far fa-calendar-alt"></i></div>
+                                            <h3>Flexible Scheduling</h3>
+                                            <p>Arrange sessions at times that are most convenient for your busy lifestyle, ensuring consistency in your learning.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                        <div class="feature-card">
+                                            <div class="icon"><i class="fas fa-rocket"></i></div>
+                                            <h3>Accelerated Progress</h3>
+                                            <p>Address your specific needs directly to overcome learning plateaus and achieve your English goals faster than in a group setting.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                        <div class="feature-card">
+                                            <div class="icon"><i class="fas fa-comments"></i></div>
+                                            <h3>Increased Confidence</h3>
+                                            <p>Practice speaking in a supportive, low-pressure environment, helping you build the confidence to use English in real-world situations.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                                        <div class="feature-card">
+                                            <div class="icon"><i class="fas fa-cogs"></i></div>
+                                            <h3>Customized Materials</h3>
+                                            <p>Learning materials and activities are selected or created specifically for your goals, whether for academic, professional, or personal reasons.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="Clear"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Who Can Benefit Section -->
+                <div class="content-area _content-style is-lg _bg-none content-section">
+                    <div class="content-area-wrap">
+                        <div class="container">
+                             <h2 data-aos="fade-up">Who Can Benefit from Customized Tutoring?</h2>
+                            <div class="mwPageArea">
+                                <div class="row _gutter-60 align-items-center" data-aos="fade-up">
+                                    <div class="col-lg-5">
+                                        <div class="image-placeholder-tutoring">
+                                             <img src="files/_cache/pexels-gustavo-fring-5934556.jpg" alt="Student benefiting from tutoring" class="img-fluid" loading="lazy" width="588" height="392" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Our customized tutoring sessions are ideal for:</p>
+                                        <ul style="list-style-type: disc; padding-left: 20px; font-size: 1rem; color: var(--text-color-5, #6c757d);">
+                                            <li style="margin-bottom: 10px;">Students preparing for specific exams like TOEFL, IELTS, or Cambridge tests.</li>
+                                            <li style="margin-bottom: 10px;">Professionals needing to improve their Business English for presentations, meetings, or negotiations.</li>
+                                            <li style="margin-bottom: 10px;">Individuals looking to enhance conversational fluency and pronunciation.</li>
+                                            <li style="margin-bottom: 10px;">Learners who prefer a one-on-one learning environment over group classes.</li>
+                                            <li style="margin-bottom: 10px;">Anyone wanting to target specific grammar points or vocabulary sets.</li>
+                                            <li style="margin-bottom: 10px;">Students who need flexible scheduling to fit language learning into a busy life.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            <div class="Clear"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How It Works Section -->
+                <div class="content-area _content-style is-lg _bg-light content-section">
+                    <div class="content-area-wrap">
+                        <div class="container">
+                            <h2 data-aos="fade-up">How Our Customized Tutoring Works</h2>
+                            <div class="mwPageArea">
+                                <div class="row _gutter-30">
+                                    <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="how-it-works-step">
+                                            <div class="step-number">1</div>
+                                            <div class="step-content"><h4>Initial Consultation & Needs Assessment</h4><p>We start with a free consultation to discuss your current English level, learning objectives, preferred learning style, and availability. This helps us match you with the perfect tutor and outline a preliminary plan.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="how-it-works-step">
+                                            <div class="step-number">2</div>
+                                            <div class="step-content"><h4>Personalized Learning Plan</h4><p>Based on the assessment, your tutor will create a customized learning plan with clear goals, specific focus areas, and tailored materials designed to help you achieve your objectives efficiently.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="how-it-works-step">
+                                            <div class="step-number">3</div>
+                                            <div class="step-content"><h4>Flexible Session Scheduling</h4><p>Schedule your 1-on-1 online sessions at times that work best for you. We offer flexible scheduling options, including evenings and weekends, to accommodate your commitments.</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="400">
+                                        <div class="how-it-works-step">
+                                            <div class="step-number">4</div>
+                                            <div class="step-content"><h4>Interactive & Engaging Sessions</h4><p>Participate in dynamic, interactive sessions focusing on your target areas. Receive immediate feedback, practice extensively, and build confidence with your dedicated tutor.</p></div>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="500">
+                                        <div class="how-it-works-step">
+                                            <div class="step-number">5</div>
+                                            <div class="step-content"><h4>Continuous Progress Monitoring</h4><p>Your tutor will regularly assess your progress, provide constructive feedback, and adjust the learning plan as needed to ensure you stay on track and motivated.</p></div>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="600">
+                                        <div class="how-it-works-step">
+                                            <div class="step-number">6</div>
+                                            <div class="step-content"><h4>Achieve Your Goals</h4><p>With consistent effort and personalized guidance, you'll achieve your English language goals, whether it's acing an exam, excelling at work, or communicating confidently in everyday life.</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="Clear"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Section -->
+                <div class="cta-tutoring" data-aos="zoom-in">
+                    <h2>Ready to Get Started with Personalized Tutoring?</h2>
+                    <p>Take the first step towards focused, effective English learning. Schedule your free consultation today to discuss your needs with one of our expert advisors.</p>
+                    <div id="wBUTTONCTAContactTutoring" class="mwPageBlock Button"><div class="blockContents">
+                        <div id="tpl-BTNCTAContactTutoring" class="mwBtnCenter">
+                            <div class="btn is-primary is-large">
+                                <a href="contact-us.html?subject=Tutoring_Consultation_Request" template="default" target="_self"><span>Request Free Consultation</span></a>
+                            </div>
+                        </div>
+                    </div></div>
+                </div>
+                <div class="Clear"></div>
+			</main>
 
 			<!-- Footer -->
 			<footer id="footer-area">
@@ -636,17 +594,10 @@
 
 <div id="tpl-QHN4DD" class="footer footer-kampus _content-style _bg-primary">
   <div class="footer-wrap"> 
-    <!-- Main -->
     <div class="footer-main">
       <div class="container"> 
-        
-   
-        
-        <!-- Bottom -->
         <div class="footerBottom">
           <div class="row"> 
-            
-            <!-- Col 1 -->
             <div class="footer-col footer-col-1 col-xl-3 col-lg-6">
               <div class="footer-col-inner">
                 <div id="w6TAAW84U25CBR17" class="mwPageBlock Content" style=""><div class="blockContents"><h6>
@@ -671,14 +622,12 @@
         <li>
                 <a href="Conversational-English-Course-2025-2026.html">Conversational English Club</a>
         </li>
-        <li>
+        <li class="current">
                 <a href="Customized-Tutoring-Sessions.html">Customized Tutoring Sessions</a>
         </li>
 </ul></div></div>
               </div>
             </div>
-            
-            <!-- Col 2 -->
             <div class="footer-col footer-col-2 col-xl-3 col-lg-6">
               <div class="footer-col-inner">
                 <div id="wADMTSH66198FLLB" class="mwPageBlock Content" style=""><div class="blockContents"><h6>
@@ -697,8 +646,6 @@
 </ul></div></div>
               </div>
             </div>
-            
-            <!-- Col 3 -->
             <div class="footer-col footer-col-3 col-xl-3 col-lg-6">
               <div class="footer-col-inner">
                   <div id="w2QJ08FO7J3VZBH2" class="mwPageBlock Content" style=""><div class="blockContents"><h6>
@@ -721,8 +668,6 @@
 </div></div>
               </div>
             </div>
-            
-            <!-- Col 4 -->
             <div class="footer-col footer-col-4 col-xl-3 col-lg-6">
               <div class="footer-col-inner footer-col-newsletter">
                  <div id="wUBRPIR1K74KP5CG" class="mwPageBlock Content" style=""><div class="blockContents"><h6>
@@ -741,62 +686,44 @@
         Email: <a href="mailto:info@americanexpressions.online">info@americanexpressions.online</a>
 </p></div></div>
               </div>
-              
-              <!-- Social Media -->
-              
-                <div class="footer-sns">
+              <div class="footer-sns">
                   <div id="wW3V59WVODY4HN6I" class="mwPageBlock Gensoclinks" style=""><div class="blockContents">
 	<div id="tpl-OFBWH1" class="sns-link sns-link-circle center small">
 		<div class="sns-link-wrap">
 			
-				<a class="sns-link-item" href="https://www.instagram.com/americanexpressions" target="_blank" title="Find us on instagram">
-					<i class="fa-brands fa-instagram"></i>
-				</a>
+				<a class="sns-link-item" href="https://www.instagram.com/americanexpressions" target="_blank" title="Find us on instagram"><i class="fa-brands fa-instagram"></i></a>
 			
-				<a class="sns-link-item" href="https://www.facebook.com/americanexpressions" target="_blank" title="Find us on facebook">
-					<i class="fa-brands fa-facebook"></i>
-				</a>
+				<a class="sns-link-item" href="https://www.facebook.com/americanexpressions" target="_blank" title="Find us on facebook"><i class="fa-brands fa-facebook"></i></a>
 			
-				<a class="sns-link-item" href="https://www.youtube.com/@americanexpressions" target="_blank" title="Find us on youtube">
-					<i class="fa-brands fa-youtube"></i>
-				</a>
+				<a class="sns-link-item" href="https://www.youtube.com/@americanexpressions" target="_blank" title="Find us on youtube"><i class="fa-brands fa-youtube"></i></a>
 			
 		</div>
 	</div>
 </div></div>
                 </div>
-              
-				
-				
-						<!-- Google Translate -->
 				<toggle rel="custom_enable_translate">
 					<div class="google-translate">
 						<div class="google-translate-label">Translate</div>
 						<div class="google-translate-embed" >
 							<div id="google_translate_element"></div>
-							<script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE},'google_translate_element');}</script>
+							<script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: 'en'},'google_translate_element');}</script>
 							<script type="text/javascript" src="https://translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
 						</div>
 					</div>
 				</toggle>
-				
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- Footer Copyright -->
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
           <div class="footer-copyright-left col-lg-4">© Copyright
             2025            American Expressions Institute. All rights reserved.</div>
-			
 			<div class="footer-logo-wrap col-lg-4">
           <a class="footer-logo" href="index.html" title="American Expressions Institute"> <img src="files/_cache/31447717c8fdce248545e21be4e3685c.png" alt="American Expressions Institute" /> </a>
 			</div>
-			
           <div class="footer-powered-by-right col-lg-4">© 2025 American Expressions Institute</div>
         </div>
       </div>
@@ -813,7 +740,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/jquery.ScrollMagic.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.0/jquery.inputmask.min.js"></script>
@@ -823,11 +749,9 @@
 		<script src="js/global7312.js?v=mw3.1"></script>
 		<script src="js/script7312.js?v=mw3.1"></script>
 		
-		
 <script>
   AOS.init();
 </script>
 		
 	</body>
-
 </html>
