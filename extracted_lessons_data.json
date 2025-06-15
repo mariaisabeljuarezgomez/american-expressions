@@ -1,0 +1,1083 @@
+{
+  "Lección 1": {
+    "vocabulary": [
+      {"I": "yo"},
+      {"you": "tú"},
+      {"you": "Ud."},
+      {"he": "él"},
+      {"she": "ella"},
+      {"it": "(cosa)"},
+      {"we": "nosotros"},
+      {"you": "Uds."},
+      {"they": "ellos"},
+      {"they": "ellas"},
+      {"they": "(cosas)"},
+      {"no": "no"},
+      {"to be": "ser, estar"}
+    ],
+    "grammar": [
+      {
+        "title": "EL TIEMPO PRESENTE DEL VERBO BE",
+        "content": "Los infinitivos en inglés se forman colocando la partícula to antes del verbo. Así, to be forma un infinitivo. To be equivale a ser o estar. En inglés no se puede sobreentender el pronombre como en castellano; siempre hay que expresarlo."
+      },
+      {
+        "title": "Be Afirmativo",
+        "conjugation": {
+          "I am": "(yo) soy, estoy",
+          "you are": "(tú) eres, estás / (Ud.) es, está / (Uds.) son, están",
+          "he is": "(él) es, está",
+          "she is": "(ella) es, está",
+          "it is": "(cosa) es, está",
+          "we are": "(nosotros) somos, estamos",
+          "they are": "(ellos/ellas/cosas) son, están"
+        }
+      },
+      {
+        "title": "EL USO DE LA PARTÍCULA NOT",
+        "content": "La palabra not se usa en inglés para negar con verbos, generalmente colocada después del verbo. En conversación, el verbo y not se juntan para formar una contracción. La contracción de 'is not' es 'isn't' y de 'are not' es 'aren't'. En la primera persona del singular, la contracción es 'I'm not'."
+      },
+      {
+        "title": "Be - Negativo (con contracciones)",
+        "conjugation": {
+          "I'm not": "(yo) no soy, no estoy",
+          "you aren't": "(tú) no eres, no estás / (Ud.) no es, no está / (Uds.) no son, no están",
+          "he isn't": "(él) no es, no está",
+          "she isn't": "(ella) no es, no está",
+          "it isn't": "(cosa) no es, no está",
+          "we aren't": "(nosotros) no somos, no estamos",
+          "they aren't": "(ellos/ellas/cosas) no son, no están"
+        }
+      },
+      {
+        "title": "Be Interrogativo",
+        "content": "La forma interrogativa del verbo be se forma colocando el verbo antes del sustantivo o pronombre."
+      },
+      {
+        "title": "Be Interrogativo Negativo",
+        "content": "La forma interrogativa negativa del verbo be se forma colocando la contracción del negativo antes del sustantivo o pronombre. En la primera persona singular no es posible ninguna contracción con 'am' y 'not' en esta forma ('am I not?')."
+      }
+    ],
+    "exercises": [
+      "EJERCICIO 1: Traduzca las siguientes frases.",
+      "EJERCICIO 2: Traduzca las siguientes frases.",
+      "EJERCICIO 3: Cambie al negativo.",
+      "EJERCICIO 4: Traduzca las siguientes frases.",
+      "EJERCICIO 5: Cambie al negativo, interrogativo e interrogativo negativo.",
+      "EJERCICIO 6: Traduzca las siguientes frases.",
+      "EJERCICIO 7: Cambie al negativo, interrogativo e interrogativo negativo.",
+      "EJERCICIO 8: Traduzca las siguientes frases."
+    ]
+  },
+  "Lección 2": {
+    "vocabulary": [
+      {"the": "el, la los, las"},
+      {"yes": "sí"},
+      {"boy": "muchacho, niño"},
+      {"girl": "muchacha, niña"},
+      {"man": "hombre, señor"},
+      {"woman": "mujer, señorita, señora"},
+      {"house": "casa"},
+      {"car": "coche, carro"},
+      {"big": "grande, alto"},
+      {"little": "pequeño, chico"},
+      {"small": "pequeño, chico"},
+      {"old": "viejo, grande (edad)"},
+      {"young": "joven"},
+      {"new": "nuevo"},
+      {"red": "rojo"},
+      {"green": "verde"},
+      {"American": "americano"},
+      {"Mexican": "mexicano"},
+      {"where": "dónde"},
+      {"apple": "manzana"},
+      {"sweet": "dulce (adj.)"},
+      {"desk": "escritorio"},
+      {"brown": "color café"}
+    ],
+    "idioms": [
+      {"Hello": "hola"},
+      {"good-bye": "adiós"},
+      {"good morning": "buenos días"},
+      {"good afternoon": "buenas tardes"},
+      {"good evening": "(para saludar) buenas noches"},
+      {"good night": "(para despedirse) buenas noches"},
+      {"the young man (boy)": "el joven"},
+      {"the young woman (girl)": "la joven"},
+      {"the old man": "el anciano"},
+      {"the old woman": "la anciana"}
+    ],
+    "grammar": [
+      {
+        "title": "LAS CONTRACCIONES AFIRMATIVAS CON LOS PRONOMBRES",
+        "content": "Las contracciones afirmativas con los pronombres (I'm, you're, he's, etc.) solamente se pueden usar cuando el verbo se complementa. En oraciones negativas las contracciones se pueden usar haya o no haya complemento."
+      },
+      {
+        "title": "LA POSICIÓN DE LOS ADJETIVOS EN INGLÉS",
+        "content": "En inglés se colocan los adjetivos antes de los sustantivos. Los adjetivos en inglés nunca cambian de forma; no tienen ni singular ni plural, ni son masculinos ni femeninos."
+      }
+    ],
+    "exercises": [
+      "EJERCICIO 1: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 3: Traduzca al inglés.",
+      "EJERCICIO 4: Traduzca al castellano.",
+      "EJERCICIO 5: Traduzca las siguientes oraciones. Cámbielas al negativo, interrogativo e interrogativo negativo.",
+      "EJERCICIO 6: Llene los espacios con is o are, según el caso, y traduzca.",
+      "EJERCICIO 7: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 8: Lea y traduzca estas oraciones.",
+      "EJERCICIO 9: Escriba en inglés."
+    ]
+  },
+  "Lección 3": {
+    "vocabulary": [
+      {"to go": "ir"},
+      {"to come": "venir, llegar"},
+      {"to work": "trabajar"},
+      {"a, an": "un, una"},
+      {"and": "y, e"},
+      {"to": "a"},
+      {"in": "en, dentro de"},
+      {"with": "con"},
+      {"my": "mi, mis"},
+      {"too": "también"},
+      {"here": "acá, aquí"},
+      {"table": "mesa"},
+      {"telephone": "teléfono"},
+      {"phone": "teléfono"},
+      {"office": "oficina"},
+      {"school": "escuela"},
+      {"movie": "película"},
+      {"father": "padre, papá"},
+      {"mother": "madre, mamá"},
+      {"brother": "hermano"},
+      {"sister": "hermana"},
+      {"Spanish": "español"},
+      {"teacher": "profesor"}
+    ],
+    "idioms": [
+      {"Mr. Hunt": "el Sr. Hunt"},
+      {"Mrs. Hunt": "la Sra. Hunt"},
+      {"Miss Hunt": "la Srita. Hunt"},
+      {"Mr. and Mrs. Hunt": "los Sres. Hunt"},
+      {"He goes to the movies.": "El va al cine."},
+      {"every day": "todos los días"},
+      {"Thank you.": "Gracias."},
+      {"You're welcome.": "De nada, Por nada."}
+    ],
+    "grammar": [
+      {
+        "title": "LOS ARTÍCULOS A y AN",
+        "content": "El artículo 'a' se emplea antes de palabras que empiezan con sonido de consonante. El artículo 'an' se emplea antes de palabras que empiezan con sonido de vocal."
+      },
+      {
+        "title": "LOS COMPLEMENTOS CON EL ARTÍCULO INDEFINIDO",
+        "content": "En inglés, los complementos en singular que se pueden contar llevan el artículo indefinido antes del sustantivo. Los complementos en plural no van precedidos de artículo indefinido."
+      },
+      {
+        "title": "EL TIEMPO PRESENTE",
+        "content": "Para conjugar cualquier verbo en el afirmativo del presente (menos be y have), se quita la partícula 'to' del infinitivo y se antepone el pronombre. Con los pronombres de la tercera persona del singular (he, she, it) y sustantivos en singular, siempre se añade una 's' al verbo. Este tiempo se usa para representar acción habitual o un estado o un hecho."
+      },
+      {
+        "title": "LAS PREPOSICIONES TO y IN",
+        "content": "La preposición 'to' (a) se usa después de verbos que indican movimiento. La preposición 'in' (en, dentro de) quiere decir dentro de cierto lugar."
+      }
+    ],
+    "exercises": [
+      "EJERCICIO 1: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 2: Llene los espacios con a o an y traduzca.",
+      "EJERCICIO 3: Traduzca al inglés.",
+      "EJERCICIO 4: Traduzca las siguientes oraciones. Cámbielas al negativo, interrogativo e Interrogativo negativo.",
+      "EJERCICIO 5: Práctica Verbal",
+      "EJERCICIO 6: Llene los espacios con la preposición correcta y traduzca.",
+      "EJERCICIO 7: Lea y traduzca estas oraciones.",
+      "EJERCICIO 8: Escriba en inglés.",
+      "EJERCICIO 9: Dictado",
+      "EJERCICIO 10: Conversación Conteste cada pregunta en afirmativo y en negativo."
+    ]
+  },
+  "Lección 4": {
+    "vocabulary": [
+      {"to read": "leer"},
+      {"to say": "decir"},
+      {"to write": "escribir"},
+      {"to use": "usar"},
+      {"to take": "llevar, tomar"},
+      {"on": "en, sobre"},
+      {"at": "en"},
+      {"from": "de"},
+      {"this": "este, esta, esto"},
+      {"this one": "éste, ésta"},
+      {"these": "estos, estas; éstos, éstas"},
+      {"how": "cómo"},
+      {"how many": "cuántos"},
+      {"good": "bueno"},
+      {"well": "bien"},
+      {"book": "libro"},
+      {"notebook": "cuaderno"},
+      {"pencil": "lápiz"},
+      {"pen": "pluma"},
+      {"letter": "carta; letra"},
+      {"there is, there are": "hay"},
+      {"is there?, are there?": "¿hay?"}
+    ],
+    "idioms": [
+      {"How are you?": "¿Cómo está Ud.?"},
+      {"Fine, thank you.": "Bien, gracias."},
+      {"What's your name?": "¿Cómo se llama?"},
+      {"My name is John.": "Me llamo Juan."},
+      {"first name": "nombre de pila"},
+      {"last name": "apellido"},
+      {"He's at home.": "Él está en casa."}
+    ],
+    "grammar": [
+      {
+        "title": "LAS PREPOSICIONES ON, AT, FROM",
+        "content": "La preposición 'on' (en, sobre) indica estar sobre una superficie. La preposición 'at' (en) indica un lugar determinado. La preposición 'from' (de) indica procedencia u origen."
+      },
+      {
+        "title": "HAY - THERE IS (THERE'S) y THERE ARE",
+        "content": "'Hay' equivale a 'there is' (singular) y 'there are' (plural). 'Is there' y 'are there' son las formas interrogativas. 'There isn't' y 'there aren't' son las formas negativas."
+      },
+      {
+        "title": "THIS, THIS ONE y THESE",
+        "content": "Se emplea el adjetivo 'this' con sustantivo en singular y el pronombre 'this one' al referirse a un sustantivo ya mencionado. La palabra 'these' se emplea con o sin sustantivo en plural."
+      }
+    ],
+    "exercises": [
+      "EJERCICIO 1: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 2: Llene los espacios con la preposición correcta y traduzca.",
+      "EJERCICIO 3: Traduzca las siguientes oraciones. Cámbielas al negativo, interrogativo e interrogativo negativo.",
+      "EJERCICIO 4: Llene los espacios con there is o there are, etc.",
+      "EJERCICIO 5: Llene los espacios con this, this one o these y traduzca.",
+      "EJERCICIO 6: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 7: Práctica Verbal",
+      "EJERCICIO 8: Lea y traduzca estas oraciones.",
+      "EJERCICIO 9: Escriba en inglés.",
+      "EJERCICIO 10: Dictado",
+      "EJERCICIO 11: Conversación Conteste las siguientes preguntas.",
+      "EJERCICIO 12: Conteste las siguiente preguntas en afirmativo y negativo."
+    ]
+  },
+  "Lección 5": {
+    "vocabulary": [
+      {"to live": "vivir"},
+      {"to eat": "comer"},
+      {"to help": "ayudar"},
+      {"to bring": "traer"},
+      {"to like": "gustar; simpatizar"},
+      {"can": "poder"},
+      {"candy": "dulces (sing.)"},
+      {"of": "de"},
+      {"very": "muy"},
+      {"many": "muchos"},
+      {"some": "alguno(s)"},
+      {"everything": "todo, todas las cosas"},
+      {"that": "ese, esa; aquel, aquella, aquello"},
+      {"that one": "ése, ésa; aquél, aquélla"},
+      {"those": "esos, esas; aquellos, aquellas; etc."},
+      {"the United States": "(los) Estados Unidos"},
+      {"street": "calle"},
+      {"city": "ciudad"},
+      {"park": "parque; jardín"},
+      {"dinner": "la comida principal"},
+      {"numbers": "six (6), seven (7), eight (8), nine (9), ten (10)"}
+    ],
+    "idioms": [
+      {"Here it is.": "Aquí está."},
+      {"It's very big.": "Es muy grande."},
+      {"It's very little.": "Es muy chico."},
+      {"There's room.": "Hay lugar."},
+      {"There's no room.": "No hay lugar."},
+      {"He's very nice.": "Él es muy simpático (agradable)."},
+      {"The car is very nice.": "El coche es muy bonito."},
+      {"He can read, write, etc.": "Él sabe leer, escribir, etc."},
+      {"all the boys, girls, books, etc.": "todos los muchachos, muchachas, libros, etc."}
+    ],
+    "grammar": [
+      {
+        "title": "LA PREPOSICIÓN OF",
+        "content": "La preposición 'of' (de) indica parte de algo o pertenencia."
+      },
+      {
+        "title": "EL VERBO LIKE",
+        "content": "El verbo 'like' se conjuga como otros verbos. La forma verbal que se usa después de éste será el infinitivo con la partícula 'to'."
+      },
+      {
+        "title": "EL AUXILIAR CAN",
+        "content": "La palabra 'can' es un auxiliar. Se usa con otro verbo para formar modos. La forma del verbo después de 'can' es el infinitivo sin 'to'. La negación es 'can not' (contracción: 'can't'). La tercera persona singular no termina en 's'."
+      },
+      {
+        "title": "THAT, THAT ONE Y THOSE",
+        "content": "Se emplea el adjetivo 'that' con sustantivo en singular y el pronombre 'that one' al referirse a un sustantivo ya mencionado. 'Those' se emplea con o sin sustantivo en plural."
+      },
+      {
+        "title": "LOS ADJETIVOS POSESIVOS",
+        "content": "Los adjetivos posesivos (my, your, his, her, its, our, their) se colocan antes de los sustantivos y no son ni singulares ni plurales."
+      }
+    ],
+    "exercises": [
+      "EJERCICIO 1: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 2: Llene los espacios con la preposición correcta y traduzca.",
+      "EJERCICIO 3: Traduzca las siguientes oraciones y practique leyéndolas.",
+      "EJERCICIO 4: Llene los espacios con that, that one o those y traduzca.",
+      "EJERCICIO 5: Llene los espacios con los adjetivos posesivos y traduzca.",
+      "EJERCICIO 6: Práctica Verbal",
+      "EJERCICIO 7: Práctica Verbal",
+      "EJERCICIO 8: Lea y traduzca estas oraciones.",
+      "EJERCICIO 9: Escriba en inglés.",
+      "EJERCICIO 10: Dictado",
+      "EJERCICIO 11: Conversación Conteste las siguientes preguntas en afirmativo y negativo."
+    ]
+  },
+  "Lección 6": {
+    "vocabulary": [
+      {"to put": "poner, meter"},
+      {"to wash": "lavar(se)"},
+      {"to wait (for)": "esperar"},
+      {"to study": "estudiar"},
+      {"to learn": "aprender"},
+      {"that": "que"},
+      {"but": "pero, sino"},
+      {"when": "cuándo"},
+      {"why": "por qué"},
+      {"because": "porque"},
+      {"now": "ahora"},
+      {"what": "qué; lo que"},
+      {"early": "temprano"},
+      {"late": "tarde"},
+      {"family": "familia"},
+      {"parents": "padres"},
+      {"child": "niño, niña; hijo, hija"},
+      {"children": "niños, niñas; hijos"},
+      {"garage": "garaje; taller"},
+      {"factory": "fábrica"}
+    ],
+    "idioms": [
+      {"Wait for me.": "Espéreme Ud."},
+      {"I like it.": "(refiriéndose a una cosa) Me gusta."},
+      {"what time": "a qué hora"},
+      {"too + (adj. o adv.)": "demasiado + (adj. o adv.)"},
+      {"too much (work)": "demasiado (trabajo)"},
+      {"too many (books)": "demasiados (libros)"},
+      {"a lot / a lot of": "mucho, muchos"},
+      {"very much": "mucho"},
+      {"What are you waiting for?": "¿Qué esperas?"},
+      {"He's eating dinner.": "El está comiendo. (la comida principal)"}
+    ],
+    "grammar": [
+      {
+        "title": "LA PALABRA HOME",
+        "content": "Se usan diferentes preposiciones con 'home' dependiendo del contexto: 'to home' no se usa; se dice 'go home' (ir a casa). Se dice 'at home' (en casa) y 'from home' (de casa)."
+      },
+      {
+        "title": "EL GERUNDIO",
+        "content": "El gerundio se forma agregando 'ing' al infinitivo (sin 'to'). Corresponde a 'ando' y 'iendo' en castellano. Si el verbo termina en 'e', se suprime la 'e' (come -> coming). Verbos monosílabos que terminan en consonante-vocal-consonante duplican la consonante final (put -> putting)."
+      },
+      {
+        "title": "EL TIEMPO PRESENTE PROGRESIVO",
+        "content": "Se forma con el presente del verbo 'be' (am, is, are) como auxiliar y el gerundio. Se usa para describir una acción que está aconteciendo en el momento actual."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-15"
+    ]
+  },
+  "Lección 7": {
+    "vocabulary": [
+      {"to get up": "levantarse"},
+      {"to wake up": "despertarse"},
+      {"to visit": "visitar"},
+      {"to teach": "enseñar"},
+      {"to see": "ver"},
+      {"for": "para, por"},
+      {"so": "así es que; para que; por lo tanto"},
+      {"student": "alumno, estudiante"},
+      {"how much": "cuánto"},
+      {"who": "quién"},
+      {"please": "por favor"},
+      {"minute": "minuto"},
+      {"hour": "hora"},
+      {"husband": "esposo"},
+      {"wife / wives": "esposa / esposas"},
+      {"year": "año"},
+      {"tomorrow": "mañana"},
+      {"numbers": "eleven (11), twelve (12), thirteen (13), fourteen (14), fifteen (15)"}
+    ],
+    "idioms": [
+      {"they say": "dicen"},
+      {"to be early": "llegar temprano"},
+      {"to be late": "llegar tarde"},
+      {"in the morning": "en o por la mañana"},
+      {"just a minute please": "un momento, por favor"},
+      {"It's very early/late.": "Es muy temprano/tarde."},
+      {"so + (adj. o adv.)": "tan + (adj. o adv.)"},
+      {"so much/many": "tanto/tantos"}
+    ],
+    "grammar": [
+      {
+        "title": "LA PREPOSICIÓN FOR",
+        "content": "Se emplea la preposición 'for' en inglés para expresar duración de tiempo (e.g., for ten minutes)."
+      },
+      {
+        "title": "EL FUTURO IDIOMÁTICO",
+        "content": "Se forma con el presente del verbo 'be' (am, is, are) + 'going' + un infinitivo con 'to'. Se usa para expresar una acción en el futuro."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-15"
+    ]
+  },
+  "Lección 8": {
+    "vocabulary": [
+      {"to speak": "hablar"},
+      {"to walk": "caminar, ir a pie"},
+      {"to run": "correr"},
+      {"to feel": "sentir(se)"},
+      {"to want": "querer"},
+      {"by": "por"},
+      {"before": "antes de (que)"},
+      {"after": "después de (que)"},
+      {"sick": "enfermo, mal"},
+      {"weak": "débil"},
+      {"happy": "feliz, contento"},
+      {"sad": "triste"},
+      {"there": "allí, allá"},
+      {"cousin": "primo(a)"},
+      {"grandmother": "abuela"},
+      {"grandfather": "abuelo"},
+      {"grandparents": "abuelos"},
+      {"garden": "jardín"},
+      {"yard": "patio"},
+      {"numbers": "sixteen (16) to twenty-two (22)"}
+    ],
+    "idioms": [
+      {"I'm sorry.": "Lo siento; Siento que..."},
+      {"Excuse me, Pardon me.": "Con permiso, Dispénseme."},
+      {"that's why": "por eso"},
+      {"surely, certainly": "con mucho gusto"},
+      {"There's going to be...": "Va a haber..."}
+    ],
+    "grammar": [
+      {
+        "title": "LOS DÍAS DE LA SEMANA",
+        "content": "Los días de la semana (Monday, Tuesday, etc.) se escriben con mayúscula. Se usa la preposición 'on' antes de los días de la semana."
+      },
+      {
+        "title": "EL USO DE LA PREPOSICIÓN BY",
+        "content": "La preposición 'by' se emplea después de verbos de movimiento con la idea de pasar por o pasar frente a (e.g., come by my house)."
+      },
+      {
+        "title": "LA FORMA POSESIVA",
+        "content": "La forma posesiva de un sustantivo se forma agregando un apóstrofo y una 's' (the boy's book). Si el sustantivo plural ya termina en 's', se añade solo el apóstrofo (the boys' books)."
+      },
+      {
+        "title": "EL VERBO WANT",
+        "content": "La forma verbal que se usa después del verbo 'want' es el infinitivo con la partícula 'to' (I want to go)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-11"
+    ]
+  },
+  "Lección 9": {
+    "vocabulary": [
+      {"to do": "hacer"},
+      {"to understand": "entender"},
+      {"to sit (down)": "sentarse"},
+      {"to know": "saber, conocer"},
+      {"to open": "abrir"},
+      {"around": "alrededor de"},
+      {"slow": "despacio, lento"},
+      {"fast": "rápido, aprisa"},
+      {"wall": "pared"},
+      {"fence": "cerca, barda"},
+      {"door": "puerta"},
+      {"window": "ventana"},
+      {"living room": "sala"},
+      {"chair": "silla"},
+      {"sofa": "sofá"},
+      {"floor": "piso"},
+      {"rug": "alfombra"},
+      {"homework": "tarea (de escuela)"},
+      {"numbers": "thirty (30) to seventy (70)"}
+    ],
+    "idioms": [
+      {"Please sit down.": "Por favor, siéntese."},
+      {"He's sitting (down).": "Él está sentado."},
+      {"What time is it?": "¿Qué hora es?"},
+      {"It's five (o'clock).": "Son las cinco."},
+      {"Telling time": "five-thirty, a quarter after five, twenty to five, etc."}
+    ],
+    "grammar": [
+      {
+        "title": "LOS AUXILIARES DO Y DOES",
+        "content": "'Do' y 'does' se usan como auxiliares en preguntas y negaciones en tiempo presente con todos los verbos menos 'be' y otros auxiliares. 'Does' se usa para la tercera persona singular (he, she, it). La contracción negativa es 'don't' y 'doesn't'."
+      },
+      {
+        "title": "EL IMPERATIVO",
+        "content": "La forma imperativa se construye con el infinitivo sin 'to' y sin pronombre (Run.). Para el negativo se coloca 'don't' antes del verbo (Don't run.)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-13"
+    ]
+  },
+  "Lección 10": {
+    "vocabulary": [
+      {"to have": "tener, haber"},
+      {"to call": "llamar"},
+      {"to tell": "decir, contar"},
+      {"to think": "pensar, creer"},
+      {"to make": "hacer"},
+      {"if": "si"},
+      {"near": "cerca (de)"},
+      {"clean": "limpio"},
+      {"dirty": "sucio"},
+      {"white": "blanco"},
+      {"blue": "azul"},
+      {"son": "hijo"},
+      {"daughter": "hija"},
+      {"curtain": "cortina"},
+      {"day": "día"},
+      {"week": "semana"},
+      {"month": "mes"},
+      {"numbers": "eighty (80) to three hundred fifty-two (352)"}
+    ],
+    "idioms": [
+      {"How old are you?": "¿Cuántos años tiene?"},
+      {"I'm twenty (years old).": "Tengo veinte (años)."},
+      {"States of being": "I'm hungry/thirsty/cold/warm/sleepy/afraid."},
+      {"Weather states": "It's cold/warm/hot."},
+      {"I'm going to be...": "Voy a cumplir (edad) / Voy a tener (hambre, sed, etc.)"}
+    ],
+    "grammar": [
+      {
+        "title": "TO DO y TO MAKE",
+        "content": "Ambos se traducen como 'hacer'. Generalmente 'make' se emplea para una acción manual (make curtains) y 'do' para una acción mental (do homework) o no definida."
+      },
+      {
+        "title": "EL VERBO HAVE",
+        "content": "Se conjuga 'I have', 'you have', 'he/she/it has', 'we have', 'they have'. Se usa con los auxiliares 'do' y 'does' para preguntas y negaciones."
+      },
+      {
+        "title": "LA EXPRESIÓN IDIOMÁTICA DE NECESIDAD",
+        "content": "Se forma con el verbo 'have' seguido de un infinitivo con 'to' (I have to go), que equivale a 'tener que'."
+      },
+      {
+        "title": "TRADUCCIÓN DE LA PARTÍCULA CASTELLANA A",
+        "content": "La preposición 'a' que se usa en español antes de un complemento de persona o animal (conozco a este muchacho) se suprime en inglés (I know this boy)."
+      },
+      {
+        "title": "TRADUCCIÓN DE PARA ANTES DE UN INFINITIVO",
+        "content": "No se puede usar en inglés la palabra 'for' (para) antes de un infinitivo como en castellano (Es demasiado tarde para comer -> It's too late to eat)."
+      },
+      {
+        "title": "REGLAS DE ORTOGRAFÍA",
+        "content": "Reglas para añadir -s/-es, -ing, y formar plurales de sustantivos terminados en 'y', 's', 'sh', 'ch', 'x'."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-18"
+    ]
+  },
+  "Lección 11": {
+    "vocabulary": [
+      {"to think about/of": "pensar en"},
+      {"to look (at)": "mirar; fijarse (en)"},
+      {"to clean": "limpiar"},
+      {"to talk": "hablar; platicar"},
+      {"to finish": "acabar, terminar"},
+      {"next": "próximo"},
+      {"next to": "junto a"},
+      {"bad": "malo, mal"},
+      {"every": "cada"},
+      {"uncle": "tío"},
+      {"aunt": "tía"},
+      {"room": "cuarto"},
+      {"dining room": "comedor"},
+      {"vase": "florero"},
+      {"flower": "flor"},
+      {"money": "dinero"},
+      {"time": "vez; tiempo"},
+      {"ordinals": "first(1st), second(2nd), third(3rd), fourth(4th), fifth(5th)"}
+    ],
+    "idioms": [
+      {"I was ten (years old) in June.": "Cumplí diez años en junio."},
+      {"over there": "para allá, hacia allá, por allá"},
+      {"over here": "para acá, hacia acá, por acá"},
+      {"every morning/afternoon/night": "todas las mañanas/tardes/noches"},
+      {"next week/month/year": "la semana/mes/año entrante"},
+      {"What's it made of?": "¿De qué es?"},
+      {"It's made of...": "Es de..."},
+      {"I was hungry, thirsty, etc.": "Tenía hambre, sed, etc."},
+      {"It was cold, warm.": "Hacía (hizo) frío, calor."}
+    ],
+    "grammar": [
+      {
+        "title": "EL TIEMPO PASADO DEL VERBO BE",
+        "content": "El pasado de 'am' y 'is' es 'was'. El pasado de 'are' es 'were'. La contracción negativa es 'wasn't' y 'weren't'."
+      },
+      {
+        "title": "LOS MESES",
+        "content": "Los meses se escriben con mayúscula. Se usa 'in' antes del mes (in January) y 'on' para una fecha exacta (on the 5th of June)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-13"
+    ]
+  },
+  "Lección 12": {
+    "vocabulary": [
+      {"to ask": "preguntar"},
+      {"to ask about": "preguntar por"},
+      {"to answer": "contestar"},
+      {"to give": "dar; regalar"},
+      {"to turn on": "encender"},
+      {"to turn off": "apagar"},
+      {"last": "último"},
+      {"ready": "listo"},
+      {"then": "entonces; después"},
+      {"or": "o"},
+      {"picture": "cuadro; película"},
+      {"kitchen": "cocina"},
+      {"stove": "estufa"},
+      {"radio": "radio"},
+      {"record player": "tocadiscos"},
+      {"light": "luz"},
+      {"water": "agua"},
+      {"gas": "gas"},
+      {"could": "podía, pudo"},
+      {"ordinals": "ninth(9th) to twenty-first(21st)"}
+    ],
+    "idioms": [
+      {"Turn on/off the...": "Encienda/Apague el/la..."},
+      {"to ask (someone)": "pedirle (a alguien)"},
+      {"to ask for (something)": "pedir (algo)"},
+      {"to ask someone for something": "pedirle a alguien algo"},
+      {"Don't tell me.": "No me diga."},
+      {"What were you doing?": "¿Qué estaba haciendo? / ¿Qué hacía?"},
+      {"I'm afraid to...": "Tengo miedo de..."},
+      {"I'm afraid of...": "Le tengo miedo a..."},
+      {"on Friday morning": "el viernes en la mañana"}
+    ],
+    "grammar": [
+      {
+        "title": "EL TIEMPO PASADO PROGRESIVO",
+        "content": "Se construye con el pasado del verbo 'be' (was, were) y el gerundio (-ing). Se usa para expresar una acción continua en el pasado."
+      },
+      {
+        "title": "EL AUXILIAR COULD",
+        "content": "'Could' es el pasado del auxiliar 'can'. La negación es 'couldn't'. Se usa con el infinitivo sin 'to'."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-16"
+    ]
+  },
+  "Lección 13": {
+    "vocabulary": [
+      {"to look (for)": "buscar"},
+      {"to put on": "ponerse"},
+      {"to forget": "olvidar"},
+      {"to sleep": "dormir"},
+      {"to wear": "usar (ropa o joyería), llevar puesto"},
+      {"without": "sin"},
+      {"soon": "pronto"},
+      {"easy": "fácil"},
+      {"hard": "duro; difícil"},
+      {"today": "hoy"},
+      {"friend": "amigo"},
+      {"bedroom": "recámara"},
+      {"bed": "cama"},
+      {"shoes": "zapatos"},
+      {"hat": "sombrero"},
+      {"suit": "traje"},
+      {"dress": "vestido"},
+      {"there was, there were": "había, hubo"}
+    ],
+    "idioms": [
+      {"When is your birthday?": "¿Cuándo es su cumpleaños?"},
+      {"of course": "por supuesto, claro (que)"},
+      {"last week/month/year/night": "la semana/mes/año pasado/anoche"},
+      {"tonight": "esta noche"},
+      {"I put on my hat.": "Me pongo el sombrero."}
+    ],
+    "grammar": [
+      {
+        "title": "HABÍA, HUBO - THERE WAS, THERE WERE",
+        "content": "'There was' (singular) y 'there were' (plural) es el pasado de 'there is/are'. Formas interrogativas: 'was there', 'were there'. Formas negativas: 'there wasn't', 'there weren't'."
+      },
+      {
+        "title": "ADVERBIOS DE FRECUENCIA",
+        "content": "Adverbios como 'always', 'usually', 'often', 'sometimes', 'never' se colocan antes de los verbos principales, pero después de las formas del verbo 'be'."
+      },
+      {
+        "title": "EL TIEMPO PASADO DEL FUTURO IDIOMÁTICO",
+        "content": "Se forma con el pasado de 'be' (was, were) + 'going' + infinitivo con 'to' (I was going to work / Yo iba a trabajar)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-16"
+    ]
+  },
+  "Lección 14": {
+    "vocabulary": [
+      {"to go back, went back": "regresar, regresó"},
+      {"to laugh (at), laughed (at)": "reírse (de), se rió (de)"},
+      {"to pass, passed": "pasar, pasó"},
+      {"to fix, fixed": "arreglar, arregló"},
+      {"to need, needed": "necesitar, necesitó"},
+      {"only": "solamente; único"},
+      {"each": "cada"},
+      {"yesterday": "ayer"},
+      {"bathroom": "baño"},
+      {"thing": "cosa"},
+      {"country": "campo; país"},
+      {"store": "tienda"},
+      {"question": "pregunta"},
+      {"lesson": "lección"},
+      {"word": "palabra"},
+      {"people": "gente (plural)"},
+      {"men": "hombres"},
+      {"women": "mujeres"}
+    ],
+    "idioms": [
+      {"to ask a question": "hacer una pregunta"},
+      {"to watch TV": "ver la televisión"},
+      {"what kind?": "¿qué clase?"},
+      {"all kinds": "toda clase"},
+      {"There was going to be...": "Iba a haber..."}
+    ],
+    "grammar": [
+      {
+        "title": "EL TIEMPO PASADO DE LOS VERBOS REGULARES",
+        "content": "Se forma el pasado de los verbos regulares agregando 'ed' al infinitivo sin 'to'. Si el verbo termina en 'e', solo se agrega 'd'. La forma es igual para todas las personas."
+      },
+      {
+        "title": "LA PRONUNCIACIÓN DE LA TERMINACIÓN ED",
+        "content": "La terminación 'ed' tiene tres pronunciaciones: como sílaba extra /ɪd/ (wanted), como /t/ (laughed), o como /d/ (called)."
+      },
+      {
+        "title": "EL PASADO DE LOS VERBOS IRREGULARES",
+        "content": "No hay regla para formar el pasado de los verbos irregulares; deben aprenderse de memoria (go -> went, see -> saw, etc.)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-12"
+    ]
+  },
+  "Lección 15": {
+    "vocabulary": [
+      {"to buy, bought": "comprar, compró"},
+      {"to sell, sold": "vender, vendió"},
+      {"to find, found": "encontrar, encontró"},
+      {"to begin, began": "empezar, empezó"},
+      {"to drink, drank": "tomar, bebió"},
+      {"to get, got": "conseguir, consiguió"},
+      {"both": "los dos, ambos"},
+      {"about": "como; cerca de; unos; aproximadamente"},
+      {"same": "mismo"},
+      {"more": "más"},
+      {"almost": "casi"},
+      {"which": "cuál"},
+      {"breakfast": "desayuno"},
+      {"supper": "cena, merienda"},
+      {"soup": "sopa"},
+      {"milk": "leche"},
+      {"egg": "huevo"},
+      {"bread": "pan"},
+      {"butter": "mantequilla"},
+      {"meat": "carne"}
+    ],
+    "idioms": [
+      {"When is your saint's day?": "¿Cuándo es su santo?"},
+      {"What's the matter with John?": "¿Qué pasa con Juan?"},
+      {"What happened to John?": "¿Qué le pasó a Juan?"},
+      {"Will you please...?": "¿(No) me quieres...?"},
+      {"the day after tomorrow": "pasado mañana"},
+      {"the day before yesterday": "anteayer"},
+      {"What did you say?": "¿Cómo dijo?"},
+      {"to eat (have) breakfast/dinner/supper": "desayunar/comer/cenar"}
+    ],
+    "grammar": [
+      {
+        "title": "EL AUXILIAR DID",
+        "content": "Como auxiliar, 'did' se usa en preguntas y negaciones en el pasado con todos los verbos menos 'be' y otros auxiliares. 'Did' sirve para todas las personas y se usa con el infinitivo sin 'to'. La contracción negativa es 'didn't'."
+      },
+      {
+        "title": "EL TIEMPO PASADO DE LA EXPRESIÓN IDIOMÁTICA DE NECESIDAD",
+        "content": "El pasado de 'have to' es 'had to' (tuve/tenía que). Para preguntas y negaciones, se usa el auxiliar 'did' (Did you have to go? / I didn't have to go)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-15"
+    ]
+  },
+  "Lección 16": {
+    "vocabulary": [
+      {"to leave, left": "dejar; salir de; irse"},
+      {"to jump, jumped": "saltar, saltó"},
+      {"to get angry (at), got angry (at)": "enojarse (con)"},
+      {"to come back, came back": "regresar (de allá para acá)"},
+      {"to lie down, lay down": "recostarse, se recostó"},
+      {"to stand up, stood up": "ponerse de pie"},
+      {"all that": "todo lo que"},
+      {"other, others": "otro, otros"},
+      {"tired": "cansado"},
+      {"later": "más tarde"},
+      {"selfish": "egoísta (adj.)"},
+      {"asleep": "dormido"},
+      {"comfortable": "cómodo"},
+      {"chicken": "pollo, gallina"},
+      {"dog": "perro"},
+      {"cow": "vaca"},
+      {"barn": "granero"},
+      {"manger": "pesebre"},
+      {"hay": "heno"},
+      {"place": "lugar"},
+      {"field": "campo"},
+      {"story": "cuento"}
+    ],
+    "idioms": [
+      {"Lie down.": "Recuéstate, Échate."},
+      {"Stand up.": "Póngase de pie, Levántese."},
+      {"Get out of here.": "Vete de aquí, Lárgate de aquí."},
+      {"Leave me alone.": "Déjame en paz."},
+      {"I don't care.": "No me importa, Me es indiferente."},
+      {"He's standing (up).": "Él está parado."},
+      {"He's lying down.": "Él está recostado."},
+      {"to be mad/angry (at)": "estar enojado (con)"}
+    ],
+    "grammar": [
+      {
+        "title": "LOS PRONOMBRES OBJETIVOS",
+        "content": "Se colocan los pronombres objetivos (me, you, him, her, it, us, them) después de los verbos y las preposiciones."
+      },
+      {
+        "title": "LIKE CON LOS SUSTANTIVOS y PRONOMBRES OBJETIVOS",
+        "content": "'Like' puede estar seguido por un sustantivo o pronombre objetivo (I like Mary / I like her)."
+      },
+      {
+        "title": "EL IMPERATIVO (con otras personas)",
+        "content": "El imperativo con otras personas se forma con 'let' + pronombre objetivo + infinitivo sin 'to' (Let me answer / Let's go). El negativo es 'Don't let...'"
+      },
+      {
+        "title": "EL USO DEL GERUNDIO CON PREPOSICIONES",
+        "content": "En inglés, después de una preposición se usa el gerundio (-ing), no el infinitivo (before going, after coming)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-12"
+    ]
+  },
+  "Lección 17": {
+    "vocabulary": [
+      {"to invite, invited": "invitar, invitó"},
+      {"to meet, met": "encontrar(se); conocer"},
+      {"to set, set": "colocar, colocó"},
+      {"to hear, heard": "oír, oyó"},
+      {"to reply, replied": "contestar, contestó"},
+      {"shallow": "poco profundo; extendido"},
+      {"narrow": "estrecho"},
+      {"tall": "alto (estatura)"},
+      {"long": "largo"},
+      {"interesting": "interesante"},
+      {"fox": "zorro"},
+      {"stork": "cigüeña"},
+      {"plate": "plato"},
+      {"glass": "vaso; vidrio; cristal"},
+      {"mouth": "boca; pico; hocico"},
+      {"bill": "pico"},
+      {"knife, knives": "cuchillo, cuchillos"},
+      {"fork": "tenedor"},
+      {"spoon": "cuchara"}
+    ],
+    "idioms": [
+      {"to set the table": "poner la mesa"},
+      {"Come in.": "Pase Ud. (de allá para acá)"},
+      {"Go in.": "Pase Ud. (de acá para allá)"},
+      {"That's all right.": "No tenga cuidado."},
+      {"It doesn't matter.": "No le hace, No importa."},
+      {"as far as I know": "que yo sepa"},
+      {"a little (milk)": "un poco (de leche)"},
+      {"a few (men)": "unos cuantos, unos pocos (hombres)"},
+      {"to say good-bye (to)": "despedirse (de)"},
+      {"to get to / here / there": "llegar a / aquí / allá"}
+    ],
+    "grammar": [
+      {
+        "title": "LOS PRONOMBRES POSESIVOS",
+        "content": "Los pronombres posesivos (mine, yours, his, hers, ours, theirs) reemplazan a un adjetivo posesivo + sustantivo. No se usa artículo antes de ellos."
+      },
+      {
+        "title": "MUCH y MANY, LITTLE y FEW",
+        "content": "'Much' (mucho) y 'little' (poco) se usan con sustantivos en singular (incontables). 'Many' (muchos) y 'few' (pocos) se usan con sustantivos en plural (contables)."
+      },
+      {
+        "title": "TO SAY y TO TELL",
+        "content": "Generalmente se usa 'tell' cuando sigue un pronombre objetivo (tell me, tell him). Se usa 'say' cuando no hay pronombre objetivo o cuando se cita directamente."
+      },
+      {
+        "title": "PREPOSICIONES DE LUGAR Y TIEMPO",
+        "content": "until (tiempo), as far as (distancia), above/over (arriba/encima de), below/under (abajo/debajo de), close to/near (cerca de), toward (hacia), all over (por todo)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-11"
+    ]
+  },
+  "Lección 18": {
+    "vocabulary": [
+      {"to lose, lost": "perder, perdió"},
+      {"to win, won": "ganar, ganó (de jugar)"},
+      {"to start, started": "empezar, empezó"},
+      {"to close, closed": "cerrar, cerró"},
+      {"to stop, stopped": "detenerse, se detuvo"},
+      {"to listen (to), listened (to)": "escuchar, escuchó"},
+      {"rabbit": "conejo"},
+      {"turtle": "tortuga"},
+      {"animal": "animal"},
+      {"race": "carrera; raza"},
+      {"grass": "pasto"},
+      {"tree": "árbol"},
+      {"eye": "ojo"},
+      {"cup": "taza"},
+      {"saucer": "plato (de taza)"},
+      {"cake": "pastel"},
+      {"coffee": "café"},
+      {"apple": "manzana"}
+    ],
+    "idioms": [
+      {"to go to sleep": "dormirse"},
+      {"to go to bed": "acostarse, irse a la cama"},
+      {"to get sleepy": "darle a uno sueño"},
+      {"after a while": "después de un rato"},
+      {"What color is it?": "¿De qué color es?"},
+      {"He's out of town.": "Él está fuera de la ciudad."},
+      {"He started home.": "Él salió para su casa."},
+      {"I listened to the radio.": "Oí el radio."}
+    ],
+    "grammar": [
+      {
+        "title": "PRONOMBRES Y ADJETIVOS INDEFINIDOS: SOME, ANY, NO, NONE",
+        "content": "'Some' se usa en oraciones afirmativas. 'Any' se usa en oraciones negativas o interrogativas. 'No' (adjetivo) y 'none' (pronombre) se usan con un verbo afirmativo para dar un sentido negativo."
+      },
+      {
+        "title": "PRONOMBRES INDEFINIDOS: SOMETHING, ANYTHING, NOTHING",
+        "content": "La misma regla que 'some/any/no' aplica a 'something' (afirmativo), 'anything' (negativo/interrogativo), y 'nothing' (sentido negativo con verbo afirmativo)."
+      },
+      {
+        "title": "PRONOMBRES INDEFINIDOS: SOMEBODY/SOMEONE, ANYBODY/ANYONE, NOBODY/NO ONE",
+        "content": "La misma regla aplica a 'somebody/someone', 'anybody/anyone', y 'nobody/no one'."
+      },
+      {
+        "title": "ADVERBIOS INDEFINIDOS: SOMEWHERE, ANYWHERE, NOWHERE",
+        "content": "La misma regla aplica a 'somewhere', 'anywhere', y 'nowhere'."
+      },
+      {
+        "title": "EVERYTHING, EVERYBODY, EVERYWHERE",
+        "content": "Se pueden usar en oraciones afirmativas, negativas o interrogativas. 'Everybody' y 'everything' siempre llevan el verbo en singular."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-16"
+    ]
+  },
+  "Lección 19": {
+    "vocabulary": [
+      {"to show, showed": "mostrar, enseñó"},
+      {"to hurry, hurried": "apresurarse, se apresuró"},
+      {"to kill, killed": "matar, mató"},
+      {"to cut, cut": "cortar, cortó"},
+      {"to become, became": "llegar a ser; hacerse"},
+      {"to love, loved": "amar, amó"},
+      {"as": "mientras; cuando"},
+      {"while": "mientras que"},
+      {"once": "una vez"},
+      {"again": "otra vez"},
+      {"busy": "ocupado"},
+      {"rich": "rico"},
+      {"poor": "pobre"},
+      {"pure": "puro"},
+      {"beautiful": "hermoso, guapa"},
+      {"gold": "oro, de oro"},
+      {"golden": "de oro; dorado"},
+      {"goose, geese": "gansa/o, gansos/as"},
+      {"farm": "granja"},
+      {"farmer": "granjero"},
+      {"food": "alimento, comida"},
+      {"another": "otro"},
+      {"hand": "mano"}
+    ],
+    "idioms": [
+      {"to lay eggs, laid eggs": "poner huevos, puso huevos"},
+      {"to get rich, got rich": "hacerse rico, se hizo rico"},
+      {"at once": "inmediatamente; de una vez"},
+      {"Hurry (up).": "Apresúrese."},
+      {"I'm in a hurry.": "Estoy de prisa. Tengo prisa."},
+      {"scrambled/fried/boiled eggs": "huevos revueltos/fritos/cocidos"},
+      {"What's the book about?": "¿De qué trata el libro?"},
+      {"not ... either": "no ... tampoco"}
+    ],
+    "grammar": [
+      {
+        "title": "EL EQUIVALENTE DE ¿NO ES VERDAD? (TAG QUESTIONS)",
+        "content": "Para formar 'tag questions', se repite el pronombre y se usa el auxiliar opuesto. Si la oración es afirmativa, el 'tag' es negativo (It's clean, isn't it?). Si la oración es negativa, el 'tag' es afirmativo (It isn't clean, is it?)."
+      },
+      {
+        "title": "LAS PREPOSICIONES AL FINAL DE LA ORACIÓN",
+        "content": "En preguntas en inglés que comienzan con 'What', 'Where', 'Who', etc., la preposición a menudo va al final de la oración (What are you looking for? / Who are you going with?)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-17"
+    ]
+  },
+  "Lección 20": {
+    "vocabulary": [
+      {"to break, broke": "romper, rompió"},
+      {"to try, tried": "tratar, probó (de intentar)"},
+      {"to drop, dropped": "tirar; caérsele a uno"},
+      {"to pick out, picked out": "escoger, escogió"},
+      {"to pick up, picked up": "alzar, recogió"},
+      {"to reach, reached": "alcanzar; llegar"},
+      {"strong": "fuerte"},
+      {"short": "corto, chaparro"},
+      {"black": "negro"},
+      {"crow": "cuervo"},
+      {"pitcher": "jarra"},
+      {"woods": "bosque"},
+      {"stone": "piedra"},
+      {"way": "manera; camino"},
+      {"idea": "idea"},
+      {"top": "parte superior; cima"},
+      {"cream": "crema"},
+      {"sugar": "azúcar"},
+      {"potatoes": "papas"},
+      {"head": "cabeza"}
+    ],
+    "idioms": [
+      {"to give up": "darse por vencido"},
+      {"to get thirsty, hungry, etc.": "darle a uno sed, hambre, etc."},
+      {"more than anything else": "más que nada, por encima de todo"},
+      {"There is/are ...left.": "Queda(n) ..."},
+      {"I have ...left.": "Me queda(n) ..."},
+      {"not ... any more / any longer": "ya no"},
+      {"plenty (of)": "bastante (de sobrar)"},
+      {"enough": "suficiente, bastante (de alcanzar)"},
+      {"a great deal (of) / a lot (of) / lots (of)": "mucho, muchos"}
+    ],
+    "grammar": [
+      {
+        "title": "USO DE 'ENOUGH'",
+        "content": "'Enough' se emplea antes de los sustantivos (enough time) y después de los adjetivos y adverbios (tall enough)."
+      },
+      {
+        "title": "REGLAS DE ORTOGRAFÍA AVANZADAS",
+        "content": "Reglas para duplicar consonantes finales en verbos al agregar -ing o -ed (stop -> stopping, stopped) y plurales de sustantivos terminados en 'f' o 'fe' (wife -> wives)."
+      }
+    ],
+    "exercises": [
+        "EJERCICIO 1-21"
+    ]
+  }
+}

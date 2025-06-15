@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>English Placement Test</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/kmq8fxx.css">
+    
+    <style>
+        :root {
+            --primary-color-start: #667eea;
+            --primary-color-end: #764ba2;
+            --text-color-light: #ffffff;
+            --text-color-dark: #2c3e50;
+            --bg-color-light: #f8f9fa;
+            --correct-color: #2ecc71;
+            --incorrect-color: #e74c3c;
+            --neutral-color: #3498db;
+            --card-bg-color: rgba(255, 255, 255, 0.95);
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+        body {
+            font-family: "sofia-pro", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--primary-color-start), var(--primary-color-end));
+            color: var(--text-color-dark);
+        }
+        .test-container {
+            width: 90%;
+            max-width: 800px;
+            background-color: var(--bg-color-light);
+            border-radius: 15px;
+            padding: 2rem 3rem;
+            box-shadow: 0 10px 30px var(--shadow-color);
+            margin: 2rem 0;
+        }
+        .intro-container, .test-results-container { text-align: center; }
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn-primary {
+            background-image: linear-gradient(to right, var(--primary-color-start) 0%, var(--primary-color-end) 100%);
+            color: var(--text-color-light);
+            box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+        }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2); }
+        .progress-section { margin-bottom: 2rem; }
+        .progress-bar-container { background-color: #e9ecef; border-radius: 50px; }
+        .progress-bar {
+            width: 0%;
+            height: 15px;
+            background-image: linear-gradient(to right, var(--primary-color-start), var(--primary-color-end));
+            border-radius: 50px;
+            transition: width 0.4s ease-in-out;
+        }
+        .question-card {
+            background: var(--card-bg-color);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            text-align: center;
+        }
+        .answer-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .answer-option {
+            padding: 1rem;
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .answer-option:hover { border-color: var(--primary-color-end); background-color: #f0f0f0; }
+        .answer-option.selected {
+            border-color: var(--neutral-color);
+            background-color: var(--neutral-color);
+            color: var(--text-color-light);
+        }
+        .answer-option.correct { background-color: var(--correct-color); color: white; border-color: var(--correct-color); }
+        .answer-option.incorrect { background-color: var(--incorrect-color); color: white; border-color: var(--incorrect-color); }
+        .navigation-buttons { margin-top: 2rem; display: flex; justify-content: space-between; }
+        .hide { display: none; }
+        .level-badge {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, var(--primary-color-start), var(--primary-color-end));
+            border-radius: 50px;
+            margin: 1rem 0;
+        }
+        .recommendations ul { list-style: none; padding: 0; }
+        .recommendations li { background-color: #e9ecef; margin: 0.5rem 0; padding: 0.8rem; border-radius: 5px; }
+        .loading-spinner { font-size: 3rem; color: var(--primary-color-start); }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div id="intro-container">
+            <h1 class="animate__animated animate__fadeInDown">Professional English Placement Test</h1>
+            <p id="test-description" class="animate__animated animate__fadeInUp">This is a comprehensive test to find the perfect starting point in our curriculum.</p>
+            <button id="start-btn" class="btn btn-primary animate__animated animate__pulse animate__infinite">Start Test</button>
+            <div id="loading-indicator" class="hide">
+                 <i class="fas fa-spinner fa-spin loading-spinner"></i>
+                 <p>Preparing your professional test...</p>
+            </div>
+        </div>
+
+        <div id="test-body" class="hide">
+            <div class="progress-section">
+                <div id="progress-text">Question 1/30</div>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </div>
+            <div id="questions-container"></div>
+            <div class="navigation-buttons">
+                <button id="prev-btn" class="btn">Previous</button>
+                <button id="next-btn" class="btn">Next</button>
+                <button id="submit-btn" class="btn btn-primary hide">Submit Test</button>
+            </div>
+        </div>
+
+        <div id="test-results-container" class="test-results-container hide"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const config = {
+                level: 1, 
+                numQuestions: 30,
+                jsonPath: 'extracted_lessons_data.json'
+            };
+
+            const isLevel1 = config.level === 1;
+            const title = `Level ${config.level} Placement Test (Lessons ${isLevel1 ? '1-10' : '10-20'})`;
+            document.title = title;
+
+            const startBtn = document.getElementById('start-btn');
+            const introContainer = document.getElementById('intro-container');
+            const testBody = document.getElementById('test-body');
+            const questionsContainer = document.getElementById('questions-container');
+            const nextBtn = document.getElementById('next-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            const submitBtn = document.getElementById('submit-btn');
+            const progressText = document.getElementById('progress-text');
+            const progressBar = document.getElementById('progress-bar');
+            const testResultContainer = document.getElementById('test-results-container');
+            const loadingIndicator = document.getElementById('loading-indicator');
+
+            let allQuestions = [];
+            let testQuestions = [];
+            let userAnswers = [];
+            let currentQuestionIndex = 0;
+            let vocabPool = { english: [], spanish: [] };
+            let idiomPool = { english: [], spanish: [] };
+
+            startBtn.addEventListener('click', loadAndPrepareTest);
+            nextBtn.addEventListener('click', nextQuestion);
+            prevBtn.addEventListener('click', prevQuestion);
+            submitBtn.addEventListener('click', submitTest);
+
+            async function loadAndPrepareTest() {
+                startBtn.classList.add('hide');
+                loadingIndicator.classList.remove('hide');
+
+                try {
+                    const response = await fetch(config.jsonPath);
+                    if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
+                    const data = await response.json();
+
+                    createPools(data);
+                    
+                    allQuestions = generateAllQuestions(data);
+
+                    const lessonRange = isLevel1 ? { start: 1, end: 10 } : { start: 10, end: 20 };
+                    const filteredQuestions = allQuestions.filter(q => q.lesson >= lessonRange.start && q.lesson <= lessonRange.end);
+
+                    shuffleArray(filteredQuestions);
+                    testQuestions = filteredQuestions.slice(0, config.numQuestions);
+                    
+                    if (testQuestions.length === 0) {
+                       throw new Error("No questions could be generated for the selected level. Check JSON data and lesson range.");
+                    }
+
+                    startTest();
+
+                } catch (error) {
+                    console.error("Failed to load or prepare test:", error);
+                    alert("There was an error loading the test. Please check the console and try again.");
+                    startBtn.classList.remove('hide');
+                    loadingIndicator.classList.add('hide');
+                }
+            }
+            
+            function createPools(data) {
+                for (const lessonKey in data) {
+                    const lesson = data[lessonKey];
+                    if (lesson.vocabulary) {
+                        lesson.vocabulary.forEach(item => {
+                            const english = Object.keys(item)[0];
+                            const spanish = Object.values(item)[0];
+                            if(english && spanish) {
+                                vocabPool.english.push(english);
+                                vocabPool.spanish.push(spanish);
+                            }
+                        });
+                    }
+                    if (lesson.idioms) {
+                        lesson.idioms.forEach(item => {
+                            const english = Object.keys(item)[0];
+                            const spanish = Object.values(item)[0];
+                            if(english && spanish) {
+                                idiomPool.english.push(english);
+                                idiomPool.spanish.push(spanish);
+                            }
+                        });
+                    }
+                }
+            }
+
+            /**
+             * NEW: Master function to generate all types of questions.
+             */
+            function generateAllQuestions(data) {
+                let questions = [];
+                for (const lessonKey in data) {
+                    const lessonNum = parseInt(lessonKey.replace('Lección ', ''));
+                    if (isNaN(lessonNum)) continue;
+
+                    const lesson = data[lessonKey];
+
+                    // Generator 1: Vocabulary Questions
+                    if (lesson.vocabulary) {
+                        lesson.vocabulary.forEach(item => {
+                            const english = Object.keys(item)[0];
+                            const spanish = Object.values(item)[0];
+                            if (!english || !spanish) return;
+
+                            questions.push({
+                                lesson: lessonNum, type: 'Vocabulary',
+                                question: `Translate to Spanish: <strong>"${english}"</strong>`,
+                                options: generateOptions(spanish, vocabPool.spanish), correct_answer: spanish
+                            });
+                            questions.push({
+                                lesson: lessonNum, type: 'Vocabulary',
+                                question: `Translate to English: <strong>"${spanish}"</strong>`,
+                                options: generateOptions(english, vocabPool.english), correct_answer: english
+                            });
+                        });
+                    }
+
+                    // Generator 2: Idiom Questions
+                     if (lesson.idioms) {
+                        lesson.idioms.forEach(item => {
+                            const english = Object.keys(item)[0];
+                            const spanish = Object.values(item)[0];
+                            if (!english || !spanish) return;
+                             questions.push({
+                                lesson: lessonNum, type: 'Idioms',
+                                question: `What is the meaning of the idiom: <strong>"${english}"</strong>?`,
+                                options: generateOptions(spanish, idiomPool.spanish), correct_answer: spanish
+                            });
+                        });
+                    }
+
+                    // Generator 3: Grammar Questions
+                    if (lesson.grammar) {
+                        lesson.grammar.forEach(grammarItem => {
+                             // Fill-in-the-blank for verb 'to be'
+                            if (grammarItem.title && grammarItem.title.toLowerCase().includes('verbo be') && grammarItem.conjugation) {
+                                for(const [key, value] of Object.entries(grammarItem.conjugation)){
+                                    const parts = key.split(' ');
+                                    if(parts.length === 2){
+                                        const pronoun = parts[0];
+                                        const verb = parts[1];
+                                        questions.push({
+                                            lesson: lessonNum, type: 'Grammar',
+                                            question: `Complete the sentence: <strong>${pronoun} ___ a student.</strong>`,
+                                            options: generateOptions(verb, ['is', 'am', 'are', 'be']), correct_answer: verb
+                                        });
+                                    }
+                                }
+                            }
+                            // Question about adjective positions from Lesson 2
+                            if(lessonNum === 2 && grammarItem.title.toLowerCase().includes('posición de los adjetivos')){
+                                questions.push({
+                                    lesson: lessonNum, type: 'Grammar',
+                                    question: 'In English, where are adjectives usually placed?',
+                                    options: ['After the noun', 'Before the noun', 'At the end of the sentence', 'It does not matter'], correct_answer: 'Before the noun'
+                                });
+                            }
+                            // Question about articles a/an from Lesson 3
+                             if(lessonNum === 3 && grammarItem.title.toLowerCase().includes('artículos a y an')){
+                                questions.push({
+                                    lesson: lessonNum, type: 'Grammar',
+                                    question: 'Which article is used before a word that starts with a vowel sound?',
+                                    options: ['a', 'an', 'the', 'of'], correct_answer: 'an'
+                                });
+                            }
+                        });
+                    }
+                }
+                return questions;
+            }
+
+
+            function generateOptions(correctAnswer, pool) {
+                const options = new Set([correctAnswer]);
+                const filteredPool = pool.filter(word => word.toLowerCase() !== correctAnswer.toLowerCase());
+                while (options.size < 4 && filteredPool.length > 0) {
+                    const randomIndex = Math.floor(Math.random() * filteredPool.length);
+                    options.add(filteredPool[randomIndex]);
+                    filteredPool.splice(randomIndex, 1);
+                }
+                return shuffleArray(Array.from(options));
+            }
+            
+            function shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            function startTest() {
+                currentQuestionIndex = 0;
+                userAnswers = new Array(testQuestions.length).fill(null);
+                introContainer.classList.add('hide');
+                testResultContainer.classList.add('hide');
+                testBody.classList.remove('hide');
+                displayQuestion();
+            }
+
+            function displayQuestion() {
+                if (currentQuestionIndex >= testQuestions.length) return;
+
+                const question = testQuestions[currentQuestionIndex];
+                questionsContainer.innerHTML = `
+                    <div class="question-card animate__animated animate__fadeIn">
+                        <p style="text-align:left; font-size:0.8rem; color:#999;">${question.type} - Lesson ${question.lesson}</p>
+                        <h3>${question.question}</h3>
+                        <div class="answer-options">
+                            ${question.options.map(option => `
+                                <span class="answer-option" data-answer="${option}">${option}</span>
+                            `).join('')}
+                        </div>
+                    </div>`;
+
+                document.querySelectorAll('.answer-option').forEach(option => {
+                    option.addEventListener('click', (e) => selectAnswer(e));
+                });
+                
+                if (userAnswers[currentQuestionIndex]) {
+                    document.querySelector(`.answer-option[data-answer="${userAnswers[currentQuestionIndex]}"]`).classList.add('selected');
+                }
+
+                updateNavigation();
+                updateProgress();
+            }
+            
+            function selectAnswer(e) {
+                const selectedOption = e.target;
+                const answer = selectedOption.dataset.answer;
+                const currentlySelected = document.querySelector('.answer-option.selected');
+                if (currentlySelected) {
+                    currentlySelected.classList.remove('selected');
+                }
+                selectedOption.classList.add('selected');
+                userAnswers[currentQuestionIndex] = answer;
+            }
+
+            function nextQuestion() {
+                if (currentQuestionIndex < testQuestions.length - 1) {
+                    currentQuestionIndex++;
+                    displayQuestion();
+                }
+            }
+
+            function prevQuestion() {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    displayQuestion();
+                }
+            }
+            
+            function updateNavigation() {
+                prevBtn.disabled = currentQuestionIndex === 0;
+                if (currentQuestionIndex === testQuestions.length - 1) {
+                    nextBtn.classList.add('hide');
+                    submitBtn.classList.remove('hide');
+                } else {
+                    nextBtn.classList.remove('hide');
+                    submitBtn.classList.add('hide');
+                }
+            }
+            
+            function updateProgress() {
+                const currentCount = testQuestions.length > 0 ? currentQuestionIndex + 1 : 0;
+                const totalCount = testQuestions.length;
+                const progress = totalCount > 0 ? (currentCount / totalCount) * 100 : 0;
+                progressBar.style.width = `${progress}%`;
+                progressText.innerText = `Question ${currentCount}/${totalCount}`;
+            }
+
+            function submitTest() {
+                let correctAnswers = 0;
+                testQuestions.forEach((q, index) => {
+                    if (userAnswers[index] === q.correct_answer) {
+                        correctAnswers++;
+                    }
+                });
+                displayResults(correctAnswers);
+            }
+
+            function displayResults(correctAnswers) {
+                testBody.classList.add('hide');
+                testResultContainer.classList.remove('hide');
+                const percentage = Math.round((correctAnswers / testQuestions.length) * 100);
+                
+                let level, recommendations;
+
+                if (isLevel1) {
+                    if (percentage >= 80) {
+                        level = "Ready for Level 2";
+                        recommendations = [
+                            "Excellent work! You have a strong grasp of the foundational concepts.",
+                            "You are ready to proceed to our Level 2 material (Lessons 10-20).",
+                            "<a href='#' onclick='alert(\"Link to Level 2 test here\");' class='btn btn-primary' style='text-decoration: none;'>Take the Level 2 Test Now</a>"
+                        ];
+                    } else if (percentage >= 50) {
+                        level = "High Beginner";
+                        recommendations = [ "You have a good start but need to reinforce foundational concepts.", "We recommend reviewing material from Lessons 5-10 before moving on." ];
+                    } else {
+                        level = "Beginner";
+                        recommendations = [ "Start with a thorough review of Lessons 1-4.", "Focus on the verb 'to be', basic vocabulary, and articles." ];
+                    }
+                } else { 
+                    if (percentage >= 75) {
+                        level = "Intermediate";
+                        recommendations = [ "Congratulations! You have a solid intermediate understanding of English.", "You are ready to enroll in our advanced courses." ];
+                    } else {
+                         level = "Low Intermediate";
+                         recommendations = [ "Good effort! You understand many key concepts.", "We recommend reviewing material from Lessons 10-15 to solidify your skills." ];
+                    }
+                }
+
+                testResultContainer.innerHTML = `
+                    <h2>Final Assessment: ${title}</h2>
+                    <div class="level-badge">${level}</div>
+                    <div class="score-details"><p>Score: ${correctAnswers}/${testQuestions.length} (${percentage}%)</p></div>
+                    <div class="recommendations">
+                        <h3>Recommended Next Steps:</h3>
+                        <ul>${recommendations.map(rec => `<li>${rec}</li>`).join('')}</ul>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <button id="retake-btn" class="btn">
+                            <i class="fas fa-redo"></i> Retake Test
+                        </button>
+                    </div>`;
+                
+                document.getElementById('retake-btn').addEventListener('click', () => {
+                    testResultContainer.innerHTML = '';
+                    loadAndPrepareTest();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
